@@ -1,0 +1,36 @@
+{
+  "name": "Ratio",
+  "units": {
+    "fraction": {
+      "symbols": ["fraction", "Fraction", "FRACTION"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "pct": {
+      "symbols": ["pct", "%", "percent"],
+      "system": "metric",
+      "transformations": [["factor", 1e-2]]
+    },
+    "ppm": {
+      "symbols": ["ppm", "PPM"],
+      "system": "metric",
+      "transformations": [["factor", 1e-6]]
+    },
+    "ppb": {
+      "symbols": ["ppb", "PPB"],
+      "system": "metric",
+      "transformations": [["factor", 1e-9]]
+    },
+    "ppt": {
+      "symbols": ["ppt", "PPT"],
+      "system": "metric",
+      "transformations": [["factor", 1e-12]]
+    },
+    "ppq": {
+      "symbols": ["ppq", "PPQ"],
+      "system": "metric",
+      "transformations": [["factor", 1e-15]]
+    }
+  }
+}

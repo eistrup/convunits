@@ -1,0 +1,11 @@
+{
+  "name": "Gamma Ray",
+  "units": {
+    "gAPI": {
+      "symbols": ["gAPI", "GAPI"],
+      "system": "metric",
+      "default": true,
+      "transformations": [["factor", 1]]
+    }
+  }
+}

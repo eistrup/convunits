@@ -1,0 +1,31 @@
+{
+  "name": "Force",
+  "units": {
+    "N": {
+      "symbols": ["N"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "kN": {
+      "symbols": ["kN"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "kgf": {
+      "symbols": ["kgf", "Kg.f", "kg.f", "KGF", "Kgf"],
+      "system": "metric",
+      "transformations": [["factor", 9.80665]]
+    },
+    "lbf": {
+      "symbols": ["lbf"],
+      "system": "imperial",
+      "transformations": [["factor", 4.44822]]
+    },
+    "klbf": {
+      "symbols": ["klbf"],
+      "system": "imperial",
+      "transformations": [["factor", 4448.22]]
+    }
+  }
+}

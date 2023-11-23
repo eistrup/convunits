@@ -1,0 +1,45 @@
+{
+  "name": "Mass Flow Rate",
+  "units": {
+    "kg/s": {
+      "symbols": ["kg/s", "Kg/s", "KG/S", "kg/sec"],
+      "system": "metric",
+      "default": true,
+      "transformations": []
+    },
+    "kg/h": {
+      "symbols": ["kg/h", "Kg/h", "KG/H", "kg/hour"],
+      "system": "metric",
+      "transformations": [["factor", 0.000277777777777777777777]]
+    },
+    "kg/d": {
+      "symbols": ["kg/d", "Kg/d", "KG/D", "kg/day"],
+      "system": "metric",
+      "transformations": [["factor", 0.006666666666666666666666]]
+    },
+    "kg/y": {
+      "symbols": ["kg/y", "Kg/y", "KG/Y", "kg/year"],
+      "system": "metric",
+      "transformations": [["factor", 2.433333333333333333333333]]
+    },
+    "t/y": {
+      "symbols": ["t/y", "ton/y", "ton/year", "t/year"],
+      "system": "metric",
+      "transformations": [["factor", 2433.333333333333333333333]]
+    },
+    "kt/y": {
+      "symbols": [
+        "kt/y",
+        "kiloton/y",
+        "kiloton/year",
+        "ThousandTon/Year",
+        "MT'000 p.a.",
+        "M.T. '000 p.a.",
+        "MT000 p.a.",
+        "Thousand Metric Tonnes Per Annum"
+      ],
+      "system": "metric",
+      "transformations": [["factor", 2433333.333333333333333333]]
+    }
+  }
+}

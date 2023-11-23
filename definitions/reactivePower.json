@@ -1,0 +1,31 @@
+{
+  "name": "Reactive Power",
+  "units": {
+    "VAR": {
+      "symbols": ["VAR"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "mVAR": {
+      "symbols": ["mVAR"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "kVAR": {
+      "symbols": ["kVAR"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "MVAR": {
+      "symbols": ["MVAR"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "GVAR": {
+      "symbols": ["GVAR"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Conductivity",
+  "units": {
+    "S/m": {
+      "symbols": ["S/m"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "mS/m": {
+      "symbols": ["mS/m"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "uS/m": {
+      "symbols": ["uS/m"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "nS/m": {
+      "symbols": ["nS/m"],
+      "system": "metric",
+      "transformations": [["factor", 1e-9]]
+    },
+    "S/ft": {
+      "symbols": ["S/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 3.28084]]
+    },
+    "mS/ft": {
+      "symbols": ["mS/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00328084]]
+    },
+    "uS/ft": {
+      "symbols": ["uS/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00000328084]]
+    },
+    "nS/ft": {
+      "symbols": ["nS/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 3.28084e-9]]
+    }
+  }
+}

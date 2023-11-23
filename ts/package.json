@@ -1,0 +1,71 @@
+{
+    "name": "convunits",
+    "version": "0.0.1",
+    "description": "Unit-Converter Typescript library (ts version of convunits). Convert between different units within same quantity. Supports different symbols for same unit.",
+    "main": "./build/index.js",
+    "scripts": {
+        "dev": "watch 'npm build' src",
+        "clean": "rm -rf ./build",
+        "build": "tsc -d -p . -m commonjs --outDir build/",
+        "type-check": "tsc --noEmit",
+        "lint-scripts": "eslint './src/**/*.{js,ts,tsx}' --max-warnings 0 --fix",
+        "linter": "npm run type-check && npm run lint-scripts",
+        "test": "jest --runInBand --verbose --forceExit --detectOpenHandles",
+        "test:ci": "jest --forceExit --coverage --detectOpenHandles --collectCoverage --coverageDirectory=\"./coverage\" --ci --reporters=default --reporters=jest-junit --watchAll=false",
+        "format": "prettier --write src tests ../definitions",
+        "json-to-ts": "ts-node tools/json-to-ts.ts",
+        "prepare": "cd .. && husky install",
+        "all": "npm run json-to-ts && npm run format && npm run test:ci"
+    },
+    "eslintConfig": {
+        "extends": [
+            "eslint:recommended"
+        ],
+        "rules": {
+            "no-empty": 0
+        }
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{ts,tsx,js,json}": [
+            "prettier --write --"
+        ],
+        "*.{ts,tsx,js}": [
+            "eslint --max-warnings 0 --fix --"
+        ]
+    },
+    "author": "MIT",
+    "keywords": [
+        "unit",
+        "units",
+        "convert",
+        "unit-conversion",
+        "unit-converter",
+        "physics",
+        "quantity",
+        "family",
+        "convert-units"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^26.0.24",
+        "@types/node": "^20.0.0",
+        "@typescript-eslint/eslint-plugin": "5.59.7",
+        "@typescript-eslint/parser": "5.29.0",
+        "husky": "^8.0.0",
+        "eslint": "^8.0.0",
+        "eslint-config-prettier": "^8.0.0",
+        "jest": "^29.6.1",
+        "jest-junit": "^16.0.0",
+        "jest-matcher-deep-close-to": "^3.0.0",
+        "lint-staged": "^13.0.0",
+        "prettier": "3.0.0",
+        "ts-jest": "^29.0.0",
+        "ts-node": "^10.5.0",
+        "typescript": "^5.0.0"
+    }
+}

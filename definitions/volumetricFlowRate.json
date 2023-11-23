@@ -1,0 +1,268 @@
+{
+  "name": "Volumetric Flow Rate",
+  "units": {
+    "mm3/s": {
+      "symbols": ["mm3/s"],
+      "system": "metric",
+      "transformations": [["factor", 1e-9]]
+    },
+    "cm3/s": {
+      "symbols": ["cm3/s"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "ml/s": {
+      "symbols": ["ml/s"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "cl/s": {
+      "symbols": ["cl/s"],
+      "system": "metric",
+      "transformations": [["factor", 0.00001]]
+    },
+    "dl/s": {
+      "symbols": ["dl/s"],
+      "system": "metric",
+      "transformations": [["factor", 0.0001]]
+    },
+    "l/s": {
+      "symbols": ["l/s"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "l/min": {
+      "symbols": ["l/min", "lpm", "LPM"],
+      "system": "metric",
+      "transformations": [["factor", 0.000016666666666666667]]
+    },
+    "l/h": {
+      "symbols": ["l/h"],
+      "system": "metric",
+      "transformations": [["factor", 2.7777777777777776e-7]]
+    },
+    "kl/s": {
+      "symbols": ["kl/s"],
+      "system": "metric",
+      "transformations": []
+    },
+    "kl/min": {
+      "symbols": ["kl/min"],
+      "system": "metric",
+      "transformations": [["factor", 0.016666666666666666]]
+    },
+    "kl/h": {
+      "symbols": ["kl/h"],
+      "system": "metric",
+      "transformations": [["factor", 0.0002777777777777778]]
+    },
+    "m3/s": {
+      "symbols": ["m3/s"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "m3/min": {
+      "symbols": ["m3/min"],
+      "system": "metric",
+      "transformations": [["factor", 0.016666666666666666]]
+    },
+    "m3/h": {
+      "symbols": ["m3/h"],
+      "system": "metric",
+      "transformations": [["factor", 0.0002777777777777778]]
+    },
+    "km3/s": {
+      "symbols": ["km3/s"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    },
+    "tsp/s": {
+      "symbols": ["tsp/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.0000049289215940186454]]
+    },
+    "Tbs/s": {
+      "symbols": ["Tbs/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.000014786764782055937]]
+    },
+    "in3/s": {
+      "symbols": ["in3/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00001638698846677003]]
+    },
+    "in3/min": {
+      "symbols": ["in3/min"],
+      "system": "imperial",
+      "transformations": [["factor", 2.7311647444616716e-7]]
+    },
+    "in3/h": {
+      "symbols": ["in3/h"],
+      "system": "imperial",
+      "transformations": [["factor", 4.551941240769452e-9]]
+    },
+    "fl-oz/s": {
+      "symbols": ["fl-oz/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.000029573529564111874]]
+    },
+    "fl-oz/min": {
+      "symbols": ["fl-oz/min"],
+      "system": "imperial",
+      "transformations": [["factor", 4.928921594018645e-7]]
+    },
+    "fl-oz/h": {
+      "symbols": ["fl-oz/h"],
+      "system": "imperial",
+      "transformations": [["factor", 8.214869323364409e-9]]
+    },
+    "cup/s": {
+      "symbols": ["cup/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.000236588236512895]]
+    },
+    "pnt/s": {
+      "symbols": ["pnt/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00047317647302579]]
+    },
+    "pnt/min": {
+      "symbols": ["pnt/min"],
+      "system": "imperial",
+      "transformations": [["factor", 0.000007886274550429832]]
+    },
+    "pnt/h": {
+      "symbols": ["pnt/h"],
+      "system": "imperial",
+      "transformations": [["factor", 1.3143790917383054e-7]]
+    },
+    "qt/s": {
+      "symbols": ["qt/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00094635294605158]]
+    },
+    "gal/s": {
+      "symbols": ["gal/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00378541178420632]]
+    },
+    "gal/min": {
+      "symbols": ["gal/min"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00006309019640343866]]
+    },
+    "galUS/min": {
+      "symbols": ["galUS/min"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00005253357806982644]]
+    },
+    "gal/h": {
+      "symbols": ["gal/h"],
+      "system": "imperial",
+      "transformations": [["factor", 0.0000010515032733906443]]
+    },
+    "ft3/s": {
+      "symbols": ["ft3/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.028316831998814504]]
+    },
+    "ft3/min": {
+      "symbols": ["ft3/min"],
+      "system": "imperial",
+      "transformations": [["factor", 0.0004719471999802417]]
+    },
+    "ft3/h": {
+      "symbols": ["ft3/h"],
+      "system": "imperial",
+      "transformations": [["factor", 0.000007865786666337362]]
+    },
+    "yd3/s": {
+      "symbols": ["yd3/s"],
+      "system": "imperial",
+      "transformations": [["factor", 0.764555587762115]]
+    },
+    "yd3/min": {
+      "symbols": ["yd3/min"],
+      "system": "imperial",
+      "transformations": [["factor", 0.012742593129368584]]
+    },
+    "yd3/h": {
+      "symbols": ["yd3/h"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00021237655215614306]]
+    },
+    "STBPD": {
+      "symbols": [
+        "STBPD",
+        "STB/DAY",
+        "B/D",
+        "BPD",
+        "bpd",
+        "stbpd",
+        "BarrelsPerDay",
+        "StdBarrelPerDay",
+        "StockTankBarrelPerDay",
+        "RB/DAY"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 0.000001842233734980409]]
+    },
+    "MSTBPD": {
+      "symbols": [
+        "MSTBPD",
+        "MSTB/d",
+        "MSTB/DAY",
+        "Mstbpd",
+        "ThousandBarrelsPerDay",
+        "ThousandStdBarrelPerDay",
+        "ThousandStockTankBarrelPerDay"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 0.001842233734980409]]
+    },
+    "SCFD": {
+      "symbols": [
+        "SCFD",
+        "SCF/d",
+        "cfd",
+        "scf/day",
+        "scfd",
+        "ft3/day",
+        "StdCubicFeetPerDay",
+        "CubicFeetPerDay"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 3.27741280556e-7]]
+    },
+    "MSCFD": {
+      "symbols": [
+        "MSCFD",
+        "MSCF/d",
+        "MSCF/DAY",
+        "Mcfd",
+        "Mscfd",
+        "ThousandStdCubicFeetPerDay",
+        "ThousandCubicFeetPerDay"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 0.000327741280556]]
+    },
+    "MMSCFD": {
+      "symbols": [
+        "MMSCFD",
+        "MMSCFPD",
+        "MMSCF/d",
+        "MMcfd",
+        "MMscfd",
+        "Mmscfd",
+        "Millionft3/day",
+        "mmscf/day",
+        "MillionStdCubicFeetPerDay",
+        "MillionCubicFeetPerDay"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 0.327741280556]]
+    }
+  }
+}

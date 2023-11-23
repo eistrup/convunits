@@ -1,0 +1,52 @@
+{
+  "name": "Mass",
+  "subquantities": ["Weight"],
+  "units": {
+    "ug": {
+      "symbols": ["ug"],
+      "system": "metric",
+      "transformations": [["factor", 9.999999999999999e-10]]
+    },
+    "mg": {
+      "symbols": ["mg"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "g": {
+      "symbols": ["g"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "kg": {
+      "symbols": ["kg"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "t": {
+      "symbols": ["t", "mt", "metric ton"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "oz": {
+      "symbols": ["oz"],
+      "system": "imperial",
+      "transformations": [["factor", 0.0283495]]
+    },
+    "lb": {
+      "symbols": ["lb"],
+      "system": "imperial",
+      "transformations": [["factor", 0.453592]]
+    },
+    "us-t": {
+      "symbols": ["us-t", "short ton", "US ton", "american ton"],
+      "system": "imperial",
+      "transformations": [["factor", 907.184]]
+    },
+    "uk-t": {
+      "symbols": ["uk-t", "long ton", "UK ton", "english ton", "british ton"],
+      "system": "imperial",
+      "transformations": [["factor", 1016.05]]
+    }
+  }
+}

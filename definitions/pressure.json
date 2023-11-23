@@ -1,0 +1,121 @@
+{
+  "name": "Pressure",
+  "units": {
+    "Pa": {
+      "symbols": ["Pa", "PA", "pa", "pascales", "pascal", "Pascal", "Pascales"],
+      "system": "metric",
+      "default": true,
+      "transformations": []
+    },
+    "kPa": {
+      "symbols": ["kPa"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "MPa": {
+      "symbols": ["MPa"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "GPa": {
+      "symbols": ["GPa"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    },
+    "hPa": {
+      "symbols": ["hPa"],
+      "system": "metric",
+      "transformations": [["factor", 100]]
+    },
+    "bar": {
+      "symbols": ["bar", "Bar", "BAR"],
+      "system": "metric",
+      "transformations": [["factor", 100000]]
+    },
+    "barg": {
+      "symbols": ["barg", "BARG", "Barg", "BarGauge"],
+      "system": "metric",
+      "transformations": [
+        ["shift", 1.01325],
+        ["factor", 100000]
+      ]
+    },
+    "torr": {
+      "symbols": ["torr"],
+      "system": "metric",
+      "transformations": [["factor", 133.32236842105263]]
+    },
+    "psi": {
+      "symbols": [
+        "psi",
+        "PoundsPerSquareInch",
+        "PSI",
+        "Psi",
+        "lb/in2",
+        "psia",
+        "PoundsPerSquareInchAbsolute",
+        "PsiAbsolute",
+        "PSIA",
+        "Psia"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 6894.76000045014]],
+      "note": "After debate we have established that, in the domain of the oil&gas industry, the unit symbol PSI refers to PSIA (0 at full vaccuum) as opposed to PSIG (0 at sea level atmospheric pressure), where  [PSIG] = [PSIA] - 14.7."
+    },
+    "kpsi": {
+      "symbols": [
+        "kpsi",
+        "Kpsi",
+        "ksi",
+        "KPSI",
+        "kpsia",
+        "Kpsia",
+        "ksia",
+        "KPSIA"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 6894760.00045014]]
+    },
+    "Mpsi": {
+      "symbols": ["Mpsi", "MPSI", "Mpsia", "MPSIA"],
+      "system": "imperial",
+      "transformations": [["factor", 6894760000.45014]]
+    },
+    "psig": {
+      "symbols": ["psig", "PSIG", "Psig", "PsiGauge"],
+      "system": "imperial",
+      "transformations": [
+        ["shift", 14.695948775],
+        ["factor", 6894.76000045014]
+      ]
+    },
+    "kpsig": {
+      "symbols": ["kpsig", "Kpsig", "ksig", "KPSIG"],
+      "system": "imperial",
+      "transformations": [
+        ["shift", 0.014695948775],
+        ["factor", 6894760.00045014]
+      ]
+    },
+    "Mpsig": {
+      "symbols": ["Mpsig", "MPSIG"],
+      "system": "imperial",
+      "transformations": [
+        ["shift", 0.000014695948775],
+        ["factor", 6894760000.45014]
+      ]
+    },
+    "atm": {
+      "symbols": [
+        "atm",
+        "atmosphere",
+        "standard atmosphere",
+        "reference atmosphere",
+        "Atm",
+        "ATM"
+      ],
+      "system": "metric",
+      "transformations": [["factor", 101325]]
+    }
+  }
+}

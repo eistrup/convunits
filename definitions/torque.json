@@ -1,0 +1,21 @@
+{
+  "name": "Torque",
+  "units": {
+    "Nm": {
+      "symbols": ["Nm"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "lbf.ft": {
+      "symbols": ["lbf.ft"],
+      "system": "imperial",
+      "transformations": [["factor", 1.355818]]
+    },
+    "klbf.ft": {
+      "symbols": ["klbf.ft", "1000lbf.ft", "klb-ft", "1000lb-ft"],
+      "system": "imperial",
+      "transformations": [["factor", 1355.818]]
+    }
+  }
+}

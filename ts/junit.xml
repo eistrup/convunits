@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="416" failures="0" errors="0" time="3.968">
+  <testsuite name="volumetricFlowRate" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:15" time="1.022" tests="33">
+    <testcase classname="volumetricFlowRate l/s to l/s" name="volumetricFlowRate l/s to l/s" time="0.002">
+    </testcase>
+    <testcase classname="volumetricFlowRate mm3/s to l/s" name="volumetricFlowRate mm3/s to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate cm3/s to l/s" name="volumetricFlowRate cm3/s to l/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate dl/s to l/s" name="volumetricFlowRate dl/s to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate cl/s to l/s" name="volumetricFlowRate cl/s to l/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate ml/s to l/s" name="volumetricFlowRate ml/s to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate m3/s to l/s" name="volumetricFlowRate m3/s to l/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate km3/s to l/s" name="volumetricFlowRate km3/s to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate l/s to ml/s" name="volumetricFlowRate l/s to ml/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate dl/s to ml/s" name="volumetricFlowRate dl/s to ml/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate cl/s to ml/s" name="volumetricFlowRate cl/s to ml/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate ml/s to ml/s" name="volumetricFlowRate ml/s to ml/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate fl-oz/s to fl-oz/s" name="volumetricFlowRate fl-oz/s to fl-oz/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate fl-oz/s to Tbs/s" name="volumetricFlowRate fl-oz/s to Tbs/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate Tbs/s to fl-oz/s" name="volumetricFlowRate Tbs/s to fl-oz/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate Tbs/s to Tbs/s" name="volumetricFlowRate Tbs/s to Tbs/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate l/s to l/min" name="volumetricFlowRate l/s to l/min" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate l/s to l/h" name="volumetricFlowRate l/s to l/h" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate kl/s to kl/h" name="volumetricFlowRate kl/s to kl/h" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate l/s to kl/h" name="volumetricFlowRate l/s to kl/h" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate l/s to m3/s" name="volumetricFlowRate l/s to m3/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate m3/s to m3/h" name="volumetricFlowRate m3/s to m3/h" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate tsp/s to l/s" name="volumetricFlowRate tsp/s to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate pnt/min to kl/h" name="volumetricFlowRate pnt/min to kl/h" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate MMscfd to l/s" name="volumetricFlowRate MMscfd to l/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate MMSCFD to l/s" name="volumetricFlowRate MMSCFD to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate Mmscfd to l/s" name="volumetricFlowRate Mmscfd to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate Mscfd to l/s" name="volumetricFlowRate Mscfd to l/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate scfd to l/s" name="volumetricFlowRate scfd to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate SCFD to l/s" name="volumetricFlowRate SCFD to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate bpd to l/s" name="volumetricFlowRate bpd to l/s" time="0.001">
+    </testcase>
+    <testcase classname="volumetricFlowRate MSTBPD to l/s" name="volumetricFlowRate MSTBPD to l/s" time="0">
+    </testcase>
+    <testcase classname="volumetricFlowRate Mstbpd to m3/s" name="volumetricFlowRate Mstbpd to m3/s" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Volume" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:16" time="0.069" tests="35">
+    <testcase classname="Volume l to l" name="Volume l to l" time="0.001">
+    </testcase>
+    <testcase classname="Volume mm3 to l" name="Volume mm3 to l" time="0.001">
+    </testcase>
+    <testcase classname="Volume cm3 to l" name="Volume cm3 to l" time="0">
+    </testcase>
+    <testcase classname="Volume dl to l" name="Volume dl to l" time="0.001">
+    </testcase>
+    <testcase classname="Volume cl to l" name="Volume cl to l" time="0">
+    </testcase>
+    <testcase classname="Volume ml to l" name="Volume ml to l" time="0.001">
+    </testcase>
+    <testcase classname="Volume m3 to l" name="Volume m3 to l" time="0">
+    </testcase>
+    <testcase classname="Volume km3 to l" name="Volume km3 to l" time="0">
+    </testcase>
+    <testcase classname="Volume l to ml" name="Volume l to ml" time="0">
+    </testcase>
+    <testcase classname="Volume dl to ml" name="Volume dl to ml" time="0">
+    </testcase>
+    <testcase classname="Volume cl to ml" name="Volume cl to ml" time="0">
+    </testcase>
+    <testcase classname="Volume ml to ml" name="Volume ml to ml" time="0.001">
+    </testcase>
+    <testcase classname="Volume msk to ml" name="Volume msk to ml" time="0">
+    </testcase>
+    <testcase classname="Volume tsk to ml" name="Volume tsk to ml" time="0.002">
+    </testcase>
+    <testcase classname="Volume krm to ml" name="Volume krm to ml" time="0">
+    </testcase>
+    <testcase classname="Volume kanna to l" name="Volume kanna to l" time="0">
+    </testcase>
+    <testcase classname="Volume kkp to ml" name="Volume kkp to ml" time="0">
+    </testcase>
+    <testcase classname="Volume glas to ml" name="Volume glas to ml" time="0">
+    </testcase>
+    <testcase classname="Volume ml to msk" name="Volume ml to msk" time="0.001">
+    </testcase>
+    <testcase classname="Volume ml to tsk" name="Volume ml to tsk" time="0">
+    </testcase>
+    <testcase classname="Volume ml to krm" name="Volume ml to krm" time="0">
+    </testcase>
+    <testcase classname="Volume l to kanna" name="Volume l to kanna" time="0.001">
+    </testcase>
+    <testcase classname="Volume lm to kkp" name="Volume lm to kkp" time="0">
+    </testcase>
+    <testcase classname="Volume ml to glas" name="Volume ml to glas" time="0">
+    </testcase>
+    <testcase classname="Volume fl-oz to fl-oz" name="Volume fl-oz to fl-oz" time="0.001">
+    </testcase>
+    <testcase classname="Volume fl-oz to tbsp" name="Volume fl-oz to tbsp" time="0">
+    </testcase>
+    <testcase classname="Volume Tbs to fl-oz" name="Volume Tbs to fl-oz" time="0">
+    </testcase>
+    <testcase classname="Volume Tbs to Tbs" name="Volume Tbs to Tbs" time="0">
+    </testcase>
+    <testcase classname="Volume tsp to l" name="Volume tsp to l" time="0.001">
+    </testcase>
+    <testcase classname="Volume pnt to ml" name="Volume pnt to ml" time="0">
+    </testcase>
+    <testcase classname="Volume gal to l" name="Volume gal to l" time="0">
+    </testcase>
+    <testcase classname="Volume bbl to l" name="Volume bbl to l" time="0.001">
+    </testcase>
+    <testcase classname="Volume MSTB to STB" name="Volume MSTB to STB" time="0">
+    </testcase>
+    <testcase classname="Volume StockTankBarrel to MMSTB" name="Volume StockTankBarrel to MMSTB" time="0">
+    </testcase>
+    <testcase classname="Volume SCF to BSCF" name="Volume SCF to BSCF" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="slowness" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:16" time="0.056" tests="4">
+    <testcase classname="slowness s/m to s/m" name="slowness s/m to s/m" time="0.002">
+    </testcase>
+    <testcase classname="slowness s/m to min/km" name="slowness s/m to min/km" time="0">
+    </testcase>
+    <testcase classname="slowness s/ft to s/ft" name="slowness s/ft to s/ft" time="0.001">
+    </testcase>
+    <testcase classname="slowness min/mi to s/ft" name="slowness min/mi to s/ft" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="_unitCoverage" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.1" tests="4">
+    <testcase classname="_unitCoverage test coverage of quantities" name="_unitCoverage test coverage of quantities" time="0.002">
+    </testcase>
+    <testcase classname="_unitCoverage test coverage of unit symbols" name="_unitCoverage test coverage of unit symbols" time="0.004">
+    </testcase>
+    <testcase classname="_unitCoverage test coverage of unit keys" name="_unitCoverage test coverage of unit keys" time="0.007">
+    </testcase>
+    <testcase classname="_unitCoverage test default units are SI units" name="_unitCoverage test default units are SI units" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="_definitions" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.094" tests="5">
+    <testcase classname="_definitions every unit has its key as first symbol" name="_definitions every unit has its key as first symbol" time="0.013">
+    </testcase>
+    <testcase classname="_definitions every definition has only one unit default=true" name="_definitions every definition has only one unit default=true" time="0.002">
+    </testcase>
+    <testcase classname="_definitions should find units with given quantity" name="_definitions should find units with given quantity" time="0.001">
+    </testcase>
+    <testcase classname="_definitions should find quantity with given unit" name="_definitions should find quantity with given unit" time="0.001">
+    </testcase>
+    <testcase classname="_definitions should find standard unit with given non standard unit" name="_definitions should find standard unit with given non standard unit" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Length" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.084" tests="22">
+    <testcase classname="Length ft to ft" name="Length ft to ft" time="0.001">
+    </testcase>
+    <testcase classname="Length ft to ft-us" name="Length ft to ft-us" time="0.001">
+    </testcase>
+    <testcase classname="Length ft-us to ft" name="Length ft-us to ft" time="0">
+    </testcase>
+    <testcase classname="Length in to in" name="Length in to in" time="0.001">
+    </testcase>
+    <testcase classname="Length ft to in" name="Length ft to in" time="0">
+    </testcase>
+    <testcase classname="Length in to ft" name="Length in to ft" time="0">
+    </testcase>
+    <testcase classname="Length ft to mi" name="Length ft to mi" time="0.001">
+    </testcase>
+    <testcase classname="Length mi to ft" name="Length mi to ft" time="0">
+    </testcase>
+    <testcase classname="Length nMi to mi" name="Length nMi to mi" time="0.002">
+    </testcase>
+    <testcase classname="Length m to m" name="Length m to m" time="0.001">
+    </testcase>
+    <testcase classname="Length m to cm" name="Length m to cm" time="0">
+    </testcase>
+    <testcase classname="Length cm to m" name="Length cm to m" time="0.001">
+    </testcase>
+    <testcase classname="Length m to mm" name="Length m to mm" time="0">
+    </testcase>
+    <testcase classname="Length meter to milimeter" name="Length meter to milimeter" time="0">
+    </testcase>
+    <testcase classname="Length m to ft" name="Length m to ft" time="0">
+    </testcase>
+    <testcase classname="Length km to m" name="Length km to m" time="0">
+    </testcase>
+    <testcase classname="Length m to ft-us" name="Length m to ft-us" time="0">
+    </testcase>
+    <testcase classname="Length nMi to m" name="Length nMi to m" time="0.001">
+    </testcase>
+    <testcase classname="Length fathom to m" name="Length fathom to m" time="0">
+    </testcase>
+    <testcase classname="Length 64thsin to in" name="Length 64thsin to in" time="0">
+    </testcase>
+    <testcase classname="Length should convert recursive values into feet" name="Length should convert recursive values into feet" time="0.001">
+    </testcase>
+    <testcase classname="Length test length units - um should retrieve quantity when unit is passed" name="Length test length units - um should retrieve quantity when unit is passed" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="_features" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.079" tests="7">
+    <testcase classname="_features get unit key from unit symbol with findUnitKey()" name="_features get unit key from unit symbol with findUnitKey()" time="0.002">
+    </testcase>
+    <testcase classname="_features get quantity from unit key with findQuantity()" name="_features get quantity from unit key with findQuantity()" time="0.001">
+    </testcase>
+    <testcase classname="_features length quantity overview" name="_features length quantity overview" time="0">
+    </testcase>
+    <testcase classname="_features temperature quantity overview" name="_features temperature quantity overview" time="0.001">
+    </testcase>
+    <testcase classname="_features findQuantity(&apos;lbf&apos;) force" name="_features findQuantity(&apos;lbf&apos;) force" time="0">
+    </testcase>
+    <testcase classname="_features findQuantity(&apos;d&apos;) time (&apos;d&apos; instead of &apos;day&apos;)" name="_features findQuantity(&apos;d&apos;) time (&apos;d&apos; instead of &apos;day&apos;)" time="0">
+    </testcase>
+    <testcase classname="_features test toDefault() method" name="_features test toDefault() method" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="_sql (generate SQL expressions for conversions)" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.058" tests="12">
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from F to K" name="_sql (generate SQL expressions for conversions) SQL expression from F to K" time="0.002">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from K to F" name="_sql (generate SQL expressions for conversions) SQL expression from K to F" time="0">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from F to C" name="_sql (generate SQL expressions for conversions) SQL expression from F to C" time="0.001">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from C to F" name="_sql (generate SQL expressions for conversions) SQL expression from C to F" time="0">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from ft to m" name="_sql (generate SQL expressions for conversions) SQL expression from ft to m" time="0.001">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from ft to in" name="_sql (generate SQL expressions for conversions) SQL expression from ft to in" time="0.002">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from psia to pascal" name="_sql (generate SQL expressions for conversions) SQL expression from psia to pascal" time="0">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from psia to psig" name="_sql (generate SQL expressions for conversions) SQL expression from psia to psig" time="0.001">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from psi (psia) to psig" name="_sql (generate SQL expressions for conversions) SQL expression from psi (psia) to psig" time="0">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from psig to psia" name="_sql (generate SQL expressions for conversions) SQL expression from psig to psia" time="0.001">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression from barg to psig" name="_sql (generate SQL expressions for conversions) SQL expression from barg to psig" time="0">
+    </testcase>
+    <testcase classname="_sql (generate SQL expressions for conversions) SQL expression toDefault() from MMscfd (to m3/s)" name="_sql (generate SQL expressions for conversions) SQL expression toDefault() from MMscfd (to m3/s)" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="reactiveEnergy" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.058" tests="15">
+    <testcase classname="reactiveEnergy VARh to VARh" name="reactiveEnergy VARh to VARh" time="0.001">
+    </testcase>
+    <testcase classname="reactiveEnergy mVARh to mVARh" name="reactiveEnergy mVARh to mVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy kVARh to kVARh" name="reactiveEnergy kVARh to kVARh" time="0.001">
+    </testcase>
+    <testcase classname="reactiveEnergy MVARh to MVARh" name="reactiveEnergy MVARh to MVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy GVARh to GVARh" name="reactiveEnergy GVARh to GVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy VARh to mVARh" name="reactiveEnergy VARh to mVARh" time="0.001">
+    </testcase>
+    <testcase classname="reactiveEnergy VARh to kVARh" name="reactiveEnergy VARh to kVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy VARh to MVARh" name="reactiveEnergy VARh to MVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy VARh to GVARh" name="reactiveEnergy VARh to GVARh" time="0.001">
+    </testcase>
+    <testcase classname="reactiveEnergy GVARh to mVARh" name="reactiveEnergy GVARh to mVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy MVARh to mVARh" name="reactiveEnergy MVARh to mVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy kVARh to mVARh" name="reactiveEnergy kVARh to mVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy mVARh to kVARh" name="reactiveEnergy mVARh to kVARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy mVARh to VARh" name="reactiveEnergy mVARh to VARh" time="0">
+    </testcase>
+    <testcase classname="reactiveEnergy kVARh to VARh" name="reactiveEnergy kVARh to VARh" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="pressure" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.064" tests="23">
+    <testcase classname="pressure Pa to Pa" name="pressure Pa to Pa" time="0.001">
+    </testcase>
+    <testcase classname="pressure Pa to kPa" name="pressure Pa to kPa" time="0.001">
+    </testcase>
+    <testcase classname="pressure kPa to Pa" name="pressure kPa to Pa" time="0">
+    </testcase>
+    <testcase classname="pressure kPa to hPa" name="pressure kPa to hPa" time="0">
+    </testcase>
+    <testcase classname="pressure kPa to MPa" name="pressure kPa to MPa" time="0.001">
+    </testcase>
+    <testcase classname="pressure kPa to bar" name="pressure kPa to bar" time="0">
+    </testcase>
+    <testcase classname="pressure kPa to torr" name="pressure kPa to torr" time="0.001">
+    </testcase>
+    <testcase classname="pressure psi to kpsi" name="pressure psi to kpsi" time="0">
+    </testcase>
+    <testcase classname="pressure psig to kpsig" name="pressure psig to kpsig" time="0.001">
+    </testcase>
+    <testcase classname="pressure psia to kpsia" name="pressure psia to kpsia" time="0">
+    </testcase>
+    <testcase classname="pressure psia to psig" name="pressure psia to psig" time="0.001">
+    </testcase>
+    <testcase classname="pressure psig to psia" name="pressure psig to psia" time="0">
+    </testcase>
+    <testcase classname="pressure PSIG to Pascal" name="pressure PSIG to Pascal" time="0">
+    </testcase>
+    <testcase classname="pressure bar to barg" name="pressure bar to barg" time="0">
+    </testcase>
+    <testcase classname="pressure barg to bar" name="pressure barg to bar" time="0">
+    </testcase>
+    <testcase classname="pressure bar to Pa" name="pressure bar to Pa" time="0.001">
+    </testcase>
+    <testcase classname="pressure BARG to Pascal" name="pressure BARG to Pascal" time="0">
+    </testcase>
+    <testcase classname="pressure psi to ksi (instead of kpsi)" name="pressure psi to ksi (instead of kpsi)" time="0">
+    </testcase>
+    <testcase classname="pressure psia to ksia (instead of kpsia)" name="pressure psia to ksia (instead of kpsia)" time="0">
+    </testcase>
+    <testcase classname="pressure torr to ksia (instead of kpsia)" name="pressure torr to ksia (instead of kpsia)" time="0">
+    </testcase>
+    <testcase classname="pressure atm to pa" name="pressure atm to pa" time="0">
+    </testcase>
+    <testcase classname="pressure atm to psia" name="pressure atm to psia" time="0.002">
+    </testcase>
+    <testcase classname="pressure atm to bar" name="pressure atm to bar" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="energy" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.063" tests="24">
+    <testcase classname="energy Wh to Wh" name="energy Wh to Wh" time="0.001">
+    </testcase>
+    <testcase classname="energy mWh to mWh" name="energy mWh to mWh" time="0.001">
+    </testcase>
+    <testcase classname="energy kWh to kWh" name="energy kWh to kWh" time="0.001">
+    </testcase>
+    <testcase classname="energy MWh to MWh" name="energy MWh to MWh" time="0">
+    </testcase>
+    <testcase classname="energy GWh to GWh" name="energy GWh to GWh" time="0">
+    </testcase>
+    <testcase classname="energy J to J" name="energy J to J" time="0.001">
+    </testcase>
+    <testcase classname="energy kJ to kJ" name="energy kJ to kJ" time="0">
+    </testcase>
+    <testcase classname="energy Wh to J" name="energy Wh to J" time="0.001">
+    </testcase>
+    <testcase classname="energy Wh to mWh" name="energy Wh to mWh" time="0">
+    </testcase>
+    <testcase classname="energy Wh to kWh" name="energy Wh to kWh" time="0.001">
+    </testcase>
+    <testcase classname="energy Wh to MWh" name="energy Wh to MWh" time="0">
+    </testcase>
+    <testcase classname="energy Wh to GWh" name="energy Wh to GWh" time="0">
+    </testcase>
+    <testcase classname="energy GWh to mWh" name="energy GWh to mWh" time="0.001">
+    </testcase>
+    <testcase classname="energy GWh to J" name="energy GWh to J" time="0">
+    </testcase>
+    <testcase classname="energy MWh to mWh" name="energy MWh to mWh" time="0">
+    </testcase>
+    <testcase classname="energy kWh to mWh" name="energy kWh to mWh" time="0.001">
+    </testcase>
+    <testcase classname="energy mWh to kWh" name="energy mWh to kWh" time="0">
+    </testcase>
+    <testcase classname="energy mWh to Wh" name="energy mWh to Wh" time="0">
+    </testcase>
+    <testcase classname="energy kWh to Wh" name="energy kWh to Wh" time="0">
+    </testcase>
+    <testcase classname="energy kWh to kJ" name="energy kWh to kJ" time="0">
+    </testcase>
+    <testcase classname="energy BOE to J" name="energy BOE to J" time="0">
+    </testcase>
+    <testcase classname="energy BOE to MBOE" name="energy BOE to MBOE" time="0">
+    </testcase>
+    <testcase classname="energy MM BOE to BOE" name="energy MM BOE to BOE" time="0.001">
+    </testcase>
+    <testcase classname="energy BOE to bbl (error)" name="energy BOE to bbl (error)" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="power" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.061" tests="21">
+    <testcase classname="power W to W" name="power W to W" time="0.002">
+    </testcase>
+    <testcase classname="power mW to mW" name="power mW to mW" time="0.001">
+    </testcase>
+    <testcase classname="power kW to kW" name="power kW to kW" time="0">
+    </testcase>
+    <testcase classname="power MW to MW" name="power MW to MW" time="0.001">
+    </testcase>
+    <testcase classname="power GW to GW" name="power GW to GW" time="0">
+    </testcase>
+    <testcase classname="power HP to HP" name="power HP to HP" time="0.002">
+    </testcase>
+    <testcase classname="power W to mW" name="power W to mW" time="0">
+    </testcase>
+    <testcase classname="power W to kW" name="power W to kW" time="0.001">
+    </testcase>
+    <testcase classname="power W to MW" name="power W to MW" time="0">
+    </testcase>
+    <testcase classname="power W to GW" name="power W to GW" time="0">
+    </testcase>
+    <testcase classname="power W to HP" name="power W to HP" time="0">
+    </testcase>
+    <testcase classname="power GW to mW" name="power GW to mW" time="0">
+    </testcase>
+    <testcase classname="power MW to mW" name="power MW to mW" time="0.001">
+    </testcase>
+    <testcase classname="power kW to mW" name="power kW to mW" time="0">
+    </testcase>
+    <testcase classname="power mW to kW" name="power mW to kW" time="0">
+    </testcase>
+    <testcase classname="power mW to W" name="power mW to W" time="0.001">
+    </testcase>
+    <testcase classname="power kW to W" name="power kW to W" time="0">
+    </testcase>
+    <testcase classname="power BOEPD to W" name="power BOEPD to W" time="0">
+    </testcase>
+    <testcase classname="power BOEPD to MBOE/d" name="power BOEPD to MBOE/d" time="0.001">
+    </testcase>
+    <testcase classname="power MM BOEPD to BOE/d" name="power MM BOEPD to BOE/d" time="0">
+    </testcase>
+    <testcase classname="power BOE/d to STBPD (error)" name="power BOE/d to STBPD (error)" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="_uniqueness" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.075" tests="4">
+    <testcase classname="_uniqueness uniqueness of definition file names" name="_uniqueness uniqueness of definition file names" time="0.001">
+    </testcase>
+    <testcase classname="_uniqueness uniqueness of definition quantity names" name="_uniqueness uniqueness of definition quantity names" time="0.001">
+    </testcase>
+    <testcase classname="_uniqueness uniqueness of definition of units (Standard symbols) " name="_uniqueness uniqueness of definition of units (Standard symbols) " time="0">
+    </testcase>
+    <testcase classname="_uniqueness uniqueness of definition of units (Nonstandard symbols) " name="_uniqueness uniqueness of definition of units (Nonstandard symbols) " time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="voltage" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.055" tests="9">
+    <testcase classname="voltage V to V" name="voltage V to V" time="0.001">
+    </testcase>
+    <testcase classname="voltage mV to mV" name="voltage mV to mV" time="0.001">
+    </testcase>
+    <testcase classname="voltage kV to kV" name="voltage kV to kV" time="0">
+    </testcase>
+    <testcase classname="voltage V to mV" name="voltage V to mV" time="0.001">
+    </testcase>
+    <testcase classname="voltage V to kV" name="voltage V to kV" time="0">
+    </testcase>
+    <testcase classname="voltage kV to mV" name="voltage kV to mV" time="0.001">
+    </testcase>
+    <testcase classname="voltage mV to kV" name="voltage mV to kV" time="0">
+    </testcase>
+    <testcase classname="voltage mV to V" name="voltage mV to V" time="0">
+    </testcase>
+    <testcase classname="voltage kV to V" name="voltage kV to V" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Time" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.062" tests="13">
+    <testcase classname="Time s to us" name="Time s to us" time="0.002">
+    </testcase>
+    <testcase classname="Time s to ms" name="Time s to ms" time="0">
+    </testcase>
+    <testcase classname="Time s to m" name="Time s to m" time="0.001">
+    </testcase>
+    <testcase classname="Time sec to s" name="Time sec to s" time="0">
+    </testcase>
+    <testcase classname="Time s to hour" name="Time s to hour" time="0.001">
+    </testcase>
+    <testcase classname="Time s to day" name="Time s to day" time="0">
+    </testcase>
+    <testcase classname="Time day to week" name="Time day to week" time="0.001">
+    </testcase>
+    <testcase classname="Time d (instead of day) to w (instead of week)" name="Time d (instead of day) to w (instead of week)" time="0">
+    </testcase>
+    <testcase classname="Time day to Month" name="Time day to Month" time="0">
+    </testcase>
+    <testcase classname="Time day to year" name="Time day to year" time="0">
+    </testcase>
+    <testcase classname="Time d (instead of day) to Y (instead of year)" name="Time d (instead of day) to Y (instead of year)" time="0">
+    </testcase>
+    <testcase classname="Time month to year" name="Time month to year" time="0.001">
+    </testcase>
+    <testcase classname="Time Years to days" name="Time Years to days" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Temperature" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:17" time="0.061" tests="14">
+    <testcase classname="Temperature C to K" name="Temperature C to K" time="0.001">
+    </testcase>
+    <testcase classname="Temperature K to C" name="Temperature K to C" time="0.001">
+    </testcase>
+    <testcase classname="Temperature F to C" name="Temperature F to C" time="0">
+    </testcase>
+    <testcase classname="Temperature C to F" name="Temperature C to F" time="0">
+    </testcase>
+    <testcase classname="Temperature F to K" name="Temperature F to K" time="0.001">
+    </testcase>
+    <testcase classname="Temperature F to R" name="Temperature F to R" time="0">
+    </testcase>
+    <testcase classname="Temperature R to F" name="Temperature R to F" time="0">
+    </testcase>
+    <testcase classname="Temperature R to C" name="Temperature R to C" time="0">
+    </testcase>
+    <testcase classname="Temperature R to K" name="Temperature R to K" time="0">
+    </testcase>
+    <testcase classname="Temperature degC to degK" name="Temperature degC to degK" time="0.001">
+    </testcase>
+    <testcase classname="Temperature degC to degK" name="Temperature degC to degK" time="0">
+    </testcase>
+    <testcase classname="Temperature degF to degR" name="Temperature degF to degR" time="0.001">
+    </testcase>
+    <testcase classname="Temperature degC to degF" name="Temperature degC to degF" time="0">
+    </testcase>
+    <testcase classname="Temperature degR to degC" name="Temperature degR to degC" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="reactivePower" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.061" tests="15">
+    <testcase classname="reactivePower VAR to VAR" name="reactivePower VAR to VAR" time="0.001">
+    </testcase>
+    <testcase classname="reactivePower mVAR to mVAR" name="reactivePower mVAR to mVAR" time="0">
+    </testcase>
+    <testcase classname="reactivePower kVAR to kVAR" name="reactivePower kVAR to kVAR" time="0.001">
+    </testcase>
+    <testcase classname="reactivePower MVAR to MVAR" name="reactivePower MVAR to MVAR" time="0">
+    </testcase>
+    <testcase classname="reactivePower GVAR to GVAR" name="reactivePower GVAR to GVAR" time="0.001">
+    </testcase>
+    <testcase classname="reactivePower VAR to mVAR" name="reactivePower VAR to mVAR" time="0">
+    </testcase>
+    <testcase classname="reactivePower VAR to kVAR" name="reactivePower VAR to kVAR" time="0">
+    </testcase>
+    <testcase classname="reactivePower VAR to MVAR" name="reactivePower VAR to MVAR" time="0.001">
+    </testcase>
+    <testcase classname="reactivePower VAR to GVAR" name="reactivePower VAR to GVAR" time="0">
+    </testcase>
+    <testcase classname="reactivePower GVAR to mVAR" name="reactivePower GVAR to mVAR" time="0">
+    </testcase>
+    <testcase classname="reactivePower MVAR to mVAR" name="reactivePower MVAR to mVAR" time="0.001">
+    </testcase>
+    <testcase classname="reactivePower kVAR to mVAR" name="reactivePower kVAR to mVAR" time="0.001">
+    </testcase>
+    <testcase classname="reactivePower mVAR to kVAR" name="reactivePower mVAR to kVAR" time="0.001">
+    </testcase>
+    <testcase classname="reactivePower mVAR to VAR" name="reactivePower mVAR to VAR" time="0">
+    </testcase>
+    <testcase classname="reactivePower kVAR to VAR" name="reactivePower kVAR to VAR" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Ratio" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.06" tests="13">
+    <testcase classname="Ratio ppm to fraction" name="Ratio ppm to fraction" time="0.002">
+    </testcase>
+    <testcase classname="Ratio fraction to pct" name="Ratio fraction to pct" time="0">
+    </testcase>
+    <testcase classname="Ratio ppm to ppm" name="Ratio ppm to ppm" time="0.001">
+    </testcase>
+    <testcase classname="Ratio ppb to ppb" name="Ratio ppb to ppb" time="0">
+    </testcase>
+    <testcase classname="Ratio ppm to ppb" name="Ratio ppm to ppb" time="0">
+    </testcase>
+    <testcase classname="Ratio ppb to ppm" name="Ratio ppb to ppm" time="0.001">
+    </testcase>
+    <testcase classname="Ratio ppt to ppt" name="Ratio ppt to ppt" time="0">
+    </testcase>
+    <testcase classname="Ratio ppm to ppt" name="Ratio ppm to ppt" time="0">
+    </testcase>
+    <testcase classname="Ratio ppt to ppb" name="Ratio ppt to ppb" time="0.001">
+    </testcase>
+    <testcase classname="Ratio ppt to ppm" name="Ratio ppt to ppm" time="0">
+    </testcase>
+    <testcase classname="Ratio ppq to ppq" name="Ratio ppq to ppq" time="0">
+    </testcase>
+    <testcase classname="Ratio ppq to ppt" name="Ratio ppq to ppt" time="0">
+    </testcase>
+    <testcase classname="Ratio ppq to ppm" name="Ratio ppq to ppm" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="mass" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.06" tests="12">
+    <testcase classname="mass lb to lb" name="mass lb to lb" time="0.002">
+    </testcase>
+    <testcase classname="mass lb to oz" name="mass lb to oz" time="0.001">
+    </testcase>
+    <testcase classname="mass oz to lb" name="mass oz to lb" time="0">
+    </testcase>
+    <testcase classname="mass oz to oz" name="mass oz to oz" time="0.002">
+    </testcase>
+    <testcase classname="mass kg to kg" name="mass kg to kg" time="0">
+    </testcase>
+    <testcase classname="mass kg to g" name="mass kg to g" time="0">
+    </testcase>
+    <testcase classname="mass g to kg" name="mass g to kg" time="0">
+    </testcase>
+    <testcase classname="mass g to g" name="mass g to g" time="0.001">
+    </testcase>
+    <testcase classname="mass kg to lb" name="mass kg to lb" time="0">
+    </testcase>
+    <testcase classname="mass t to kg" name="mass t to kg" time="0">
+    </testcase>
+    <testcase classname="mass short ton to kg" name="mass short ton to kg" time="0">
+    </testcase>
+    <testcase classname="mass short ton to kg" name="mass short ton to kg" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="each" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.059" tests="3">
+    <testcase classname="each ea to ea" name="each ea to ea" time="0.002">
+    </testcase>
+    <testcase classname="each dz to ea" name="each dz to ea" time="0">
+    </testcase>
+    <testcase classname="each ea to dz" name="each ea to dz" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="area" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.062" tests="15">
+    <testcase classname="area ft2 to ft2" name="area ft2 to ft2" time="0.002">
+    </testcase>
+    <testcase classname="area ft2 to in2" name="area ft2 to in2" time="0.001">
+    </testcase>
+    <testcase classname="area in2 to ft2" name="area in2 to ft2" time="0">
+    </testcase>
+    <testcase classname="area ft2 to ac" name="area ft2 to ac" time="0">
+    </testcase>
+    <testcase classname="area ac to ft2" name="area ac to ft2" time="0.001">
+    </testcase>
+    <testcase classname="area ft2 to mi2" name="area ft2 to mi2" time="0.002">
+    </testcase>
+    <testcase classname="area mi2 to ft2" name="area mi2 to ft2" time="0">
+    </testcase>
+    <testcase classname="area m2 to m2" name="area m2 to m2" time="0.001">
+    </testcase>
+    <testcase classname="area m2 to cm2" name="area m2 to cm2" time="0">
+    </testcase>
+    <testcase classname="area cm2 to m2" name="area cm2 to m2" time="0.001">
+    </testcase>
+    <testcase classname="area m2 to mm2" name="area m2 to mm2" time="0">
+    </testcase>
+    <testcase classname="area ha to m2" name="area ha to m2" time="0">
+    </testcase>
+    <testcase classname="area km2 to m2" name="area km2 to m2" time="0.001">
+    </testcase>
+    <testcase classname="area m2 to ft2" name="area m2 to ft2" time="0">
+    </testcase>
+    <testcase classname="area mm2 to ft2" name="area mm2 to ft2" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="apparentPower" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.062" tests="15">
+    <testcase classname="apparentPower VA to VA" name="apparentPower VA to VA" time="0.002">
+    </testcase>
+    <testcase classname="apparentPower mVA to mVA" name="apparentPower mVA to mVA" time="0">
+    </testcase>
+    <testcase classname="apparentPower kVA to kVA" name="apparentPower kVA to kVA" time="0">
+    </testcase>
+    <testcase classname="apparentPower MVA to MVA" name="apparentPower MVA to MVA" time="0">
+    </testcase>
+    <testcase classname="apparentPower GVA to GVA" name="apparentPower GVA to GVA" time="0.001">
+    </testcase>
+    <testcase classname="apparentPower VA to mVA" name="apparentPower VA to mVA" time="0">
+    </testcase>
+    <testcase classname="apparentPower VA to kVA" name="apparentPower VA to kVA" time="0">
+    </testcase>
+    <testcase classname="apparentPower VA to MVA" name="apparentPower VA to MVA" time="0.001">
+    </testcase>
+    <testcase classname="apparentPower VA to GVA" name="apparentPower VA to GVA" time="0">
+    </testcase>
+    <testcase classname="apparentPower GVA to mVA" name="apparentPower GVA to mVA" time="0.001">
+    </testcase>
+    <testcase classname="apparentPower MVA to mVA" name="apparentPower MVA to mVA" time="0">
+    </testcase>
+    <testcase classname="apparentPower kVA to mVA" name="apparentPower kVA to mVA" time="0.002">
+    </testcase>
+    <testcase classname="apparentPower mVA to kVA" name="apparentPower mVA to kVA" time="0">
+    </testcase>
+    <testcase classname="apparentPower mVA to VA" name="apparentPower mVA to VA" time="0.001">
+    </testcase>
+    <testcase classname="apparentPower kVA to VA" name="apparentPower kVA to VA" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="angle" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.059" tests="11">
+    <testcase classname="angle rad to rad" name="angle rad to rad" time="0.001">
+    </testcase>
+    <testcase classname="angle deg to deg" name="angle deg to deg" time="0">
+    </testcase>
+    <testcase classname="angle grad to grad" name="angle grad to grad" time="0">
+    </testcase>
+    <testcase classname="angle arcmin to deg" name="angle arcmin to deg" time="0">
+    </testcase>
+    <testcase classname="angle arcsec to deg" name="angle arcsec to deg" time="0">
+    </testcase>
+    <testcase classname="angle deg to grad" name="angle deg to grad" time="0.001">
+    </testcase>
+    <testcase classname="angle deg to arcmin" name="angle deg to arcmin" time="0">
+    </testcase>
+    <testcase classname="angle deg to arcsec" name="angle deg to arcsec" time="0">
+    </testcase>
+    <testcase classname="angle grad to arcmin" name="angle grad to arcmin" time="0">
+    </testcase>
+    <testcase classname="angle grad to deg" name="angle grad to deg" time="0">
+    </testcase>
+    <testcase classname="angle arcmin to rad" name="angle arcmin to rad" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Unitless" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.053" tests="1">
+    <testcase classname="Unitless # to None" name="Unitless # to None" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pixels" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.057" tests="1">
+    <testcase classname="Pixels Pixel to px" name="Pixels Pixel to px" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="money" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.057" tests="2">
+    <testcase classname="money USD to Thousand USD" name="money USD to Thousand USD" time="0.002">
+    </testcase>
+    <testcase classname="money MM USD to $" name="money MM USD to $" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Force" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.058" tests="4">
+    <testcase classname="Force N to kN" name="Force N to kN" time="0.001">
+    </testcase>
+    <testcase classname="Force kN to N" name="Force kN to N" time="0.001">
+    </testcase>
+    <testcase classname="Force N to lbf" name="Force N to lbf" time="0">
+    </testcase>
+    <testcase classname="Force lbf to N" name="Force lbf to N" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="charge" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.059" tests="9">
+    <testcase classname="charge c to Co" name="charge c to Co" time="0.001">
+    </testcase>
+    <testcase classname="charge c to mC" name="charge c to mC" time="0">
+    </testcase>
+    <testcase classname="charge mC to c" name="charge mC to c" time="0.001">
+    </testcase>
+    <testcase classname="charge c to μC" name="charge c to μC" time="0">
+    </testcase>
+    <testcase classname="charge μC to c" name="charge μC to c" time="0">
+    </testcase>
+    <testcase classname="charge c to nC" name="charge c to nC" time="0.002">
+    </testcase>
+    <testcase classname="charge nC to c" name="charge nC to c" time="0.001">
+    </testcase>
+    <testcase classname="charge c to pC" name="charge c to pC" time="0">
+    </testcase>
+    <testcase classname="charge pC to c" name="charge pC to c" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="apiGravity" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.056" tests="1">
+    <testcase classname="apiGravity API to API degrees" name="apiGravity API to API degrees" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="productivityIndex" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.057" tests="2">
+    <testcase classname="productivityIndex m3/s/Pa to STB/D/psia" name="productivityIndex m3/s/Pa to STB/D/psia" time="0.002">
+    </testcase>
+    <testcase classname="productivityIndex STB/D/psia to m3/s/Pa" name="productivityIndex STB/D/psia to m3/s/Pa" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="moneyPerEnergy" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.069" tests="2">
+    <testcase classname="moneyPerEnergy USD/J to USD/kWh" name="moneyPerEnergy USD/J to USD/kWh" time="0.002">
+    </testcase>
+    <testcase classname="moneyPerEnergy $/BOE to $/kWh" name="moneyPerEnergy $/BOE to $/kWh" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="massFlowRate" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:18" time="0.059" tests="3">
+    <testcase classname="massFlowRate kg/s to kg/h" name="massFlowRate kg/s to kg/h" time="0.001">
+    </testcase>
+    <testcase classname="massFlowRate ton/y to kg/year" name="massFlowRate ton/y to kg/year" time="0">
+    </testcase>
+    <testcase classname="massFlowRate MT000 p.a. to kg/year" name="massFlowRate MT000 p.a. to kg/year" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="frequency" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.062" tests="8">
+    <testcase classname="frequency Hz to Hz" name="frequency Hz to Hz" time="0.001">
+    </testcase>
+    <testcase classname="frequency mHz to mHz" name="frequency mHz to mHz" time="0">
+    </testcase>
+    <testcase classname="frequency kHz to kHz" name="frequency kHz to kHz" time="0.001">
+    </testcase>
+    <testcase classname="frequency MHz to MHz" name="frequency MHz to MHz" time="0">
+    </testcase>
+    <testcase classname="frequency GHz to GHz" name="frequency GHz to GHz" time="0">
+    </testcase>
+    <testcase classname="frequency THz to THz" name="frequency THz to THz" time="0.001">
+    </testcase>
+    <testcase classname="frequency THz to GHz" name="frequency THz to GHz" time="0">
+    </testcase>
+    <testcase classname="frequency mHz to MHz" name="frequency mHz to MHz" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="current" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.06" tests="9">
+    <testcase classname="current A to A" name="current A to A" time="0.001">
+    </testcase>
+    <testcase classname="current mA to mA" name="current mA to mA" time="0">
+    </testcase>
+    <testcase classname="current kA to kA" name="current kA to kA" time="0">
+    </testcase>
+    <testcase classname="current A to mA" name="current A to mA" time="0.001">
+    </testcase>
+    <testcase classname="current A to kA" name="current A to kA" time="0">
+    </testcase>
+    <testcase classname="current kA to mA" name="current kA to mA" time="0">
+    </testcase>
+    <testcase classname="current mA to kA" name="current mA to kA" time="0.001">
+    </testcase>
+    <testcase classname="current mA to A" name="current mA to A" time="0">
+    </testcase>
+    <testcase classname="current kA to A" name="current kA to A" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="angularFrequency" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.06" tests="8">
+    <testcase classname="angularFrequency rpm to rpm" name="angularFrequency rpm to rpm" time="0.001">
+    </testcase>
+    <testcase classname="angularFrequency rad/s to rad/s" name="angularFrequency rad/s to rad/s" time="0.001">
+    </testcase>
+    <testcase classname="angularFrequency rad/s to rpm" name="angularFrequency rad/s to rpm" time="0">
+    </testcase>
+    <testcase classname="angularFrequency rpm to rad/s" name="angularFrequency rpm to rad/s" time="0.001">
+    </testcase>
+    <testcase classname="angularFrequency rad/s to cps" name="angularFrequency rad/s to cps" time="0">
+    </testcase>
+    <testcase classname="angularFrequency rotation/sec to rotation/min" name="angularFrequency rotation/sec to rotation/min" time="0">
+    </testcase>
+    <testcase classname="angularFrequency deg/s to rad/s" name="angularFrequency deg/s to rad/s" time="0.001">
+    </testcase>
+    <testcase classname="angularFrequency deg/s to deg/s" name="angularFrequency deg/s to deg/s" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="_errors" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.063" tests="7">
+    <testcase classname="_errors convert from &quot;meeter&quot; to &quot;mm&quot;" name="_errors convert from &quot;meeter&quot; to &quot;mm&quot;" time="0.001">
+    </testcase>
+    <testcase classname="_errors convert from &quot;meter&quot; to &quot;mylimeter&quot;" name="_errors convert from &quot;meter&quot; to &quot;mylimeter&quot;" time="0">
+    </testcase>
+    <testcase classname="_errors test toDefault() method with unit not found" name="_errors test toDefault() method with unit not found" time="0.001">
+    </testcase>
+    <testcase classname="_errors convert from &quot;meter&quot; to &quot;liter&quot;" name="_errors convert from &quot;meter&quot; to &quot;liter&quot;" time="0">
+    </testcase>
+    <testcase classname="_errors conversion not initialized" name="_errors conversion not initialized" time="0">
+    </testcase>
+    <testcase classname="_errors value not a number" name="_errors value not a number" time="0">
+    </testcase>
+    <testcase classname="_errors SQL expression errors" name="_errors SQL expression errors" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="VolumeRatio" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.061" tests="7">
+    <testcase classname="VolumeRatio vol/vol to %v/v" name="VolumeRatio vol/vol to %v/v" time="0.001">
+    </testcase>
+    <testcase classname="VolumeRatio l/l to m3/m3" name="VolumeRatio l/l to m3/m3" time="0">
+    </testcase>
+    <testcase classname="VolumeRatio ft3/ft3 to m3/m3" name="VolumeRatio ft3/ft3 to m3/m3" time="0.001">
+    </testcase>
+    <testcase classname="VolumeRatio STB/MSCF to m3/m3" name="VolumeRatio STB/MSCF to m3/m3" time="0">
+    </testcase>
+    <testcase classname="VolumeRatio MSCF/STB to m3/m3" name="VolumeRatio MSCF/STB to m3/m3" time="0.001">
+    </testcase>
+    <testcase classname="VolumeRatio SCF/STB to m3/m3" name="VolumeRatio SCF/STB to m3/m3" time="0">
+    </testcase>
+    <testcase classname="VolumeRatio STB/SCF to m3/m3" name="VolumeRatio STB/SCF to m3/m3" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="temperatureDifference" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.062" tests="8">
+    <testcase classname="temperatureDifference deltaC to deltaK" name="temperatureDifference deltaC to deltaK" time="0.001">
+    </testcase>
+    <testcase classname="temperatureDifference deltaK to deltaC" name="temperatureDifference deltaK to deltaC" time="0">
+    </testcase>
+    <testcase classname="temperatureDifference deltaF to deltaR" name="temperatureDifference deltaF to deltaR" time="0">
+    </testcase>
+    <testcase classname="temperatureDifference deltaR to deltaF" name="temperatureDifference deltaR to deltaF" time="0">
+    </testcase>
+    <testcase classname="temperatureDifference deltaC to deltaF" name="temperatureDifference deltaC to deltaF" time="0.001">
+    </testcase>
+    <testcase classname="temperatureDifference deltaF to deltaC" name="temperatureDifference deltaF to deltaC" time="0">
+    </testcase>
+    <testcase classname="temperatureDifference deltaR to deltaK" name="temperatureDifference deltaR to deltaK" time="0">
+    </testcase>
+    <testcase classname="temperatureDifference deltaK to deltaF" name="temperatureDifference deltaK to deltaF" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="speed" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.059" tests="5">
+    <testcase classname="speed m/s to m/s" name="speed m/s to m/s" time="0.001">
+    </testcase>
+    <testcase classname="speed m/s to km/h" name="speed m/s to km/h" time="0.001">
+    </testcase>
+    <testcase classname="speed m/h to m/h" name="speed m/h to m/h" time="0">
+    </testcase>
+    <testcase classname="speed m/h to knot" name="speed m/h to knot" time="0.001">
+    </testcase>
+    <testcase classname="speed m/h to ft/s" name="speed m/h to ft/s" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="illumincance" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.06" tests="2">
+    <testcase classname="illumincance ft-cd to lx" name="illumincance ft-cd to lx" time="0.001">
+    </testcase>
+    <testcase classname="illumincance lx to ft-cd" name="illumincance lx to ft-cd" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="gammaRay" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.062" tests="1">
+    <testcase classname="gammaRay gAPI to GAPI" name="gammaRay gAPI to GAPI" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="acceleration" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.061" tests="3">
+    <testcase classname="acceleration g to m/s2" name="acceleration g to m/s2" time="0.001">
+    </testcase>
+    <testcase classname="acceleration m/s2 to g" name="acceleration m/s2 to g" time="0.001">
+    </testcase>
+    <testcase classname="acceleration ft/s2 to g" name="acceleration ft/s2 to g" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="density" errors="0" failures="0" skipped="0" timestamp="2023-11-21T12:37:19" time="0.06" tests="4">
+    <testcase classname="density kg/m3 to kg/m3" name="density kg/m3 to kg/m3" time="0.001">
+    </testcase>
+    <testcase classname="density kg/m3 to kg/l" name="density kg/m3 to kg/l" time="0">
+    </testcase>
+    <testcase classname="density Kg/m3 to kg/l" name="density Kg/m3 to kg/l" time="0.001">
+    </testcase>
+    <testcase classname="density g/cc to G/M3" name="density g/cc to G/M3" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

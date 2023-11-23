@@ -1,0 +1,21 @@
+{
+  "name": "Acceleration",
+  "units": {
+    "g-force": {
+      "symbols": ["g-force"],
+      "system": "metric",
+      "transformations": [["factor", 9.80665]]
+    },
+    "m/s2": {
+      "symbols": ["m/s2"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "ft/s2": {
+      "symbols": ["ft/s2"],
+      "system": "imperial",
+      "transformations": [["factor", 0.3047999902464003]]
+    }
+  }
+}

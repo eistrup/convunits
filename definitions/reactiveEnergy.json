@@ -1,0 +1,31 @@
+{
+  "name": "Reactive Energy",
+  "units": {
+    "VARh": {
+      "symbols": ["VARh"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "mVARh": {
+      "symbols": ["mVARh"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "kVARh": {
+      "symbols": ["kVARh"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "MVARh": {
+      "symbols": ["MVARh"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "GVARh": {
+      "symbols": ["GVARh"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    }
+  }
+}

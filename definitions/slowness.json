@@ -1,0 +1,66 @@
+{
+  "name": "Slowness",
+  "units": {
+    "s/m": {
+      "symbols": ["s/m"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "min/m": {
+      "symbols": ["min/m"],
+      "system": "metric",
+      "transformations": [["factor", 60]]
+    },
+    "min/km": {
+      "symbols": ["min/km"],
+      "system": "metric",
+      "transformations": [["factor", 0.06]]
+    },
+    "ms/m": {
+      "symbols": ["ms/m"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "us/m": {
+      "symbols": ["us/m"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "ns/m": {
+      "symbols": ["ns/m"],
+      "system": "metric",
+      "transformations": [["factor", 1e-9]]
+    },
+    "s/ft": {
+      "symbols": ["s/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 3.280839895013123]]
+    },
+    "min/mi": {
+      "symbols": ["min/mi"],
+      "system": "imperial",
+      "transformations": [["factor", 0.03728215223097112]]
+    },
+    "min/ft": {
+      "symbols": ["min/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 196.85039370078738]]
+    },
+    "ms/ft": {
+      "symbols": ["ms/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 0.003280839895013123]]
+    },
+    "us/ft": {
+      "symbols": ["us/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 0.000003280839895013123]]
+    },
+    "ns/ft": {
+      "symbols": ["ns/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 3.2808398950131233e-9]]
+    }
+  }
+}

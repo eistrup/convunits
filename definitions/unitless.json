@@ -1,0 +1,27 @@
+{
+  "name": "Unitless",
+  "subquantities": [
+    "Perforation Index",
+    "Poisson Ratio",
+    "Normalized",
+    "Saturation"
+  ],
+  "units": {
+    "unitless": {
+      "symbols": [
+        "unitless",
+        "dimensionless",
+        "",
+        " ",
+        "none",
+        "None",
+        "NONE",
+        "NoNe",
+        "#"
+      ],
+      "system": "metric",
+      "default": true,
+      "transformations": [["factor", 1]]
+    }
+  }
+}

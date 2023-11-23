@@ -1,0 +1,87 @@
+{
+  "name": "Area",
+  "subquantities": ["Permeability"],
+  "units": {
+    "nm2": {
+      "symbols": ["nm2", "nm^2"],
+      "system": "metric",
+      "transformations": [["factor", 1e-18]]
+    },
+    "um2": {
+      "symbols": ["um2", "um^2"],
+      "system": "metric",
+      "transformations": [["factor", 1e-12]]
+    },
+    "mm2": {
+      "symbols": ["mm2", "mm^2"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "cm2": {
+      "symbols": ["cm2", "cm^2"],
+      "system": "metric",
+      "transformations": [["factor", 0.0001]]
+    },
+    "m2": {
+      "symbols": ["m2", "m^2"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "ha": {
+      "symbols": ["ha"],
+      "system": "metric",
+      "transformations": [["factor", 10000]]
+    },
+    "km2": {
+      "symbols": ["km2", "km^2"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "D": {
+      "symbols": ["D", "Darcy", "darcy"],
+      "system": "metric",
+      "transformations": [["factor", 9.869232999999999e-13]]
+    },
+    "mD": {
+      "symbols": ["mD", "md", "Millidarcy", "millidarcy"],
+      "system": "metric",
+      "transformations": [["factor", 9.869232999999999e-16]]
+    },
+    "uD": {
+      "symbols": ["uD", "ud", "Microdarcy", "microdarcy"],
+      "system": "metric",
+      "transformations": [["factor", 9.869233e-19]]
+    },
+    "nD": {
+      "symbols": ["nD", "nd", "Nanodarcy", "nanodarcy"],
+      "system": "metric",
+      "transformations": [["factor", 9.869233e-22]]
+    },
+    "in2": {
+      "symbols": ["in2", "in^2"],
+      "system": "imperial",
+      "transformations": [["factor", 0.0006451606243503233]]
+    },
+    "yd2": {
+      "symbols": ["yd2"],
+      "system": "imperial",
+      "transformations": [["factor", 0.836128169158019]]
+    },
+    "ft2": {
+      "symbols": ["ft2", "ft^2"],
+      "system": "imperial",
+      "transformations": [["factor", 0.09290312990644656]]
+    },
+    "ac": {
+      "symbols": ["ac"],
+      "system": "imperial",
+      "transformations": [["factor", 4046.860338724812]]
+    },
+    "mi2": {
+      "symbols": ["mi2"],
+      "system": "imperial",
+      "transformations": [["factor", 2589990.6167838797]]
+    }
+  }
+}

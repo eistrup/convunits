@@ -1,0 +1,6 @@
+pytest==7.3.1
+pylint<2.18
+pytype==2023.5.8
+yapf==0.32.0
+numpy
+pandas

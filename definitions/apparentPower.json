@@ -1,0 +1,31 @@
+{
+  "name": "Apparent Power",
+  "units": {
+    "VA": {
+      "symbols": ["VA"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "mVA": {
+      "symbols": ["mVA"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "kVA": {
+      "symbols": ["kVA"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "MVA": {
+      "symbols": ["MVA"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "GVA": {
+      "symbols": ["GVA"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    }
+  }
+}

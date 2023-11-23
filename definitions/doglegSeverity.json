@@ -1,0 +1,21 @@
+{
+  "name": "Dogleg Severity",
+  "units": {
+    "deg/m": {
+      "symbols": ["deg/m", "dega/m"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "deg/ft": {
+      "symbols": ["deg/ft", "dega/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 3.28084]]
+    },
+    "deg/100ft": {
+      "symbols": ["deg/100ft", "dega/100ft"],
+      "system": "imperial",
+      "transformations": [["factor", 328.084]]
+    }
+  }
+}

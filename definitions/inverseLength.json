@@ -1,0 +1,76 @@
+{
+  "name": "Inverse Length",
+  "units": {
+    "1/nm": {
+      "symbols": ["1/nm"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    },
+    "1/um": {
+      "symbols": ["1/um"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "1/mm": {
+      "symbols": ["1/mm"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "1/cm": {
+      "symbols": ["1/cm"],
+      "system": "metric",
+      "transformations": [["factor", 100]]
+    },
+    "1/m": {
+      "symbols": ["1/m"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "1/km": {
+      "symbols": ["1/km"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "1/in": {
+      "symbols": ["1/in"],
+      "system": "imperial",
+      "transformations": [["factor", 39.37008]]
+    },
+    "10/in": {
+      "symbols": ["10/in"],
+      "system": "imperial",
+      "transformations": [["factor", 393.7008]]
+    },
+    "1/yd": {
+      "symbols": ["1/yd"],
+      "system": "imperial",
+      "transformations": [["factor", 1.0936133333333333]]
+    },
+    "1/ft-us": {
+      "symbols": ["1/ft-us"],
+      "system": "imperial",
+      "transformations": [["factor", 3.280833438333123]]
+    },
+    "1/ft": {
+      "symbols": ["1/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 3.28084]]
+    },
+    "1/mi": {
+      "symbols": ["1/mi"],
+      "system": "imperial",
+      "transformations": [["factor", 0.0006213712121212121]]
+    },
+    "1/nMi": {
+      "symbols": ["1/nMi"],
+      "system": "imperial",
+      "transformations": [["factor", 0.0005399564195572175]]
+    },
+    "1/fathom": {
+      "symbols": ["1/fathom"],
+      "system": "imperial",
+      "transformations": [["factor", 0.54680666666]]
+    }
+  }
+}

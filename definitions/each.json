@@ -1,0 +1,16 @@
+{
+  "name": "Each",
+  "units": {
+    "ea": {
+      "symbols": ["ea"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "dz": {
+      "symbols": ["dz"],
+      "system": "metric",
+      "transformations": [["factor", 12]]
+    }
+  }
+}

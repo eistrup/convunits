@@ -1,0 +1,22 @@
+{
+  "name": "Productivity Index",
+  "units": {
+    "m3/s/Pa": {
+      "symbols": ["m3/s/Pa"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "STB/D/psia": {
+      "symbols": [
+        "STB/D/psia",
+        "STB/D/PSIA",
+        "STB/D/P",
+        "stbpd/psi",
+        "STBPD/PSI"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 2.66888e-10]]
+    }
+  }
+}

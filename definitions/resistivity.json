@@ -1,0 +1,44 @@
+{
+  "name": "Resistivity",
+  "units": {
+    "ohm.m": {
+      "symbols": [
+        "ohm.m",
+        "Ohm.m",
+        "OHMM",
+        "ohmm",
+        "Ohm.meter",
+        "ohm.meter",
+        "Ohm.Meter"
+      ],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "ohm.cm": {
+      "symbols": ["ohm.cm"],
+      "system": "metric",
+      "transformations": [["factor", 0.01]]
+    },
+    "ohm.mm": {
+      "symbols": ["ohm.mm"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "ohm.um": {
+      "symbols": ["ohm.um"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "ohm.nm": {
+      "symbols": ["ohm.nm"],
+      "system": "metric",
+      "transformations": [["factor", 1e-9]]
+    },
+    "ohm.ft": {
+      "symbols": ["ohm.ft", "ohm.feet", "ohmft"],
+      "system": "imperial",
+      "transformations": [["factor", 0.3048000000012192]]
+    }
+  }
+}

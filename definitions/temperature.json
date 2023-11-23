@@ -1,0 +1,29 @@
+{
+  "name": "Temperature",
+  "units": {
+    "C": {
+      "symbols": ["C", "degC", "Celsius", "°C"],
+      "system": "metric",
+      "transformations": [["shift", 273.15]]
+    },
+    "K": {
+      "symbols": ["K", "degK", "Kelvin", "°K"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "F": {
+      "symbols": ["F", "degF", "Fahrenheit", "°F"],
+      "system": "imperial",
+      "transformations": [
+        ["shift", 459.67],
+        ["factor", 0.55555555555]
+      ]
+    },
+    "R": {
+      "symbols": ["R", "degR", "Rankine", "°R"],
+      "system": "imperial",
+      "transformations": [["factor", 0.55555555555]]
+    }
+  }
+}

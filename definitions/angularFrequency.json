@@ -1,0 +1,40 @@
+{
+  "name": "Angular Frequency",
+  "units": {
+    "rad/s": {
+      "symbols": [
+        "rad/s",
+        "radian/s",
+        "radians/s",
+        "rad/sec",
+        "radian/sec",
+        "radians/sec"
+      ],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "rpm": {
+      "symbols": ["rpm", "RPM", "rotation/min", "cycle/min"],
+      "system": "metric",
+      "transformations": [["factor", 0.10471975512]]
+    },
+    "cps": {
+      "symbols": [
+        "cps",
+        "CPS",
+        "cycle/s",
+        "cycle/sec",
+        "rotation/s",
+        "rotation/sec"
+      ],
+      "system": "metric",
+      "transformations": [["factor", 6.28318530725]]
+    },
+    "deg/s": {
+      "symbols": ["deg/s", "degree/s", "degree/sec", "deg/sec"],
+      "system": "metric",
+      "transformations": [["factor", 0.01745329251]]
+    }
+  }
+}

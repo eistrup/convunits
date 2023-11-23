@@ -1,0 +1,14 @@
+.pytype
+.vscode/
+notebooks/
+*__pycache__
+.idea/
+venv/
+.venv
+.env
+.ipynb_checkpoints/
+.DS_Store
+build
+dist
+*.egg-info
+.pytest_cache

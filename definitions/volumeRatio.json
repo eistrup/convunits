@@ -1,0 +1,81 @@
+{
+  "name": "Volume Ratio",
+  "units": {
+    "v/v": {
+      "symbols": ["v/v", "vol/vol", "volume/volume"],
+      "system": "metric",
+      "transformations": []
+    },
+    "%v/v": {
+      "symbols": ["%v/v", "vol/vol percent", "volume/volume percentage"],
+      "system": "metric",
+      "transformations": [["factor", 0.01]],
+      "note": "Necessary to allow volume ratio percentage (keeping distiction from a ratio without specified quantities). Symbol from: https://www.thoughtco.com/definition-of-volume-volume-percentage-605945#:~:text=Volume%2Fvolume%20percentage%20(v%2F,v%20percent)%20of%2012%20percent."
+    },
+    "l/l": {
+      "symbols": ["l/l", "liters/liters"],
+      "system": "metric",
+      "transformations": []
+    },
+    "ft3/ft3": {
+      "symbols": ["ft3/ft3", "cf/cf", "scf/scf", "SCF/SCF"],
+      "system": "imperial",
+      "transformations": []
+    },
+    "m3/m3": {
+      "symbols": ["m3/m3", "M3/M3"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "STB/STB": {
+      "symbols": ["STB/STB", "stb/stb"],
+      "system": "imperial",
+      "transformations": []
+    },
+    "scf/stb": {
+      "symbols": [
+        "scf/stb",
+        "cf/stb",
+        "SCF/STB",
+        "StdCubicFeetPerStockTankBarrel",
+        "StdCubicFeetPerStdBarrel"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 0.17810760667903525]]
+    },
+    "stb/scf": {
+      "symbols": [
+        "stb/scf",
+        "stb/cf",
+        "STB/SCF",
+        "StockTankBarrelPerStdCubicFoot",
+        "StdBarrelPerStdCubicFoot"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 5.614583333333334]]
+    },
+    "stb/Mscf": {
+      "symbols": [
+        "stb/Mscf",
+        "stb/Mcf",
+        "STB/MSCF",
+        "StockTankBarrelPerThousandStdCubicFeet",
+        "StdBarrelPerThousandStdCubicFeet"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 0.005614583333333333]]
+    },
+    "Mscf/stb": {
+      "symbols": [
+        "Mscf/stb",
+        "Mcf/stb",
+        "MSCF/STB",
+        "ThousandStdCubicFeetPerStockTankBarrel",
+        "ThousandStdCubicFeetPerStdBarrel"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 178.10760667903526]]
+    }
+  }
+}

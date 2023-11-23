@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "extends": ["plugin:@typescript-eslint/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "requireConfigFile": false
+    },
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "@typescript-eslint/no-unused-vars": "error",
+        "no-unused-vars": "off"
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Inverse Resistivity",
+  "units": {
+    "1/(ohm.m)": {
+      "symbols": ["1/(ohm.m)"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "1/(ohm.cm)": {
+      "symbols": ["1/(ohm.cm)"],
+      "system": "metric",
+      "transformations": [["factor", 100]]
+    },
+    "1/(ohm.mm)": {
+      "symbols": ["1/(ohm.mm)"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "1/(ohm.um)": {
+      "symbols": ["1/(ohm.um)"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "1/(ohm.nm)": {
+      "symbols": ["1/(ohm.nm)"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    },
+    "1/(ohm.pm)": {
+      "symbols": ["1/(ohm.pm)"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000000]]
+    },
+    "1/(ohm.fm)": {
+      "symbols": ["1/(ohm.fm)"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000000000]]
+    },
+    "1/(ohm.ft)": {
+      "symbols": ["1/(ohm.ft)"],
+      "system": "imperial",
+      "transformations": [["factor", 3.280839895]]
+    }
+  }
+}

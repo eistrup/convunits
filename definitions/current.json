@@ -1,0 +1,27 @@
+{
+  "name": "Current",
+  "units": {
+    "A": {
+      "symbols": ["A"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "mA": {
+      "symbols": ["mA"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "kA": {
+      "symbols": ["kA"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "MA": {
+      "symbols": ["MA"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]],
+      "note": "symbol occurred in a DLIS file in the context of BHI where we have resistivity related data channels. Mega-ampère (MA) is the most plausible unit it represents."
+    }
+  }
+}

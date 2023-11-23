@@ -1,0 +1,22 @@
+{
+  "name": "Money",
+  "subquantities": ["Cost", "Capital", "Cash", "Finance"],
+  "units": {
+    "USD": {
+      "symbols": ["USD", "Usd", "usd", "$", "dollar", "US dollar"],
+      "system": "metric",
+      "default": true,
+      "transformations": []
+    },
+    "Thousand USD": {
+      "symbols": ["Thousand USD", "M USD"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "Million USD": {
+      "symbols": ["Million USD", "MM USD"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    }
+  }
+}

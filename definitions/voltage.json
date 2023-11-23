@@ -1,0 +1,21 @@
+{
+  "name": "Voltage",
+  "units": {
+    "V": {
+      "symbols": ["V"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "mV": {
+      "symbols": ["mV"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "kV": {
+      "symbols": ["kV"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    }
+  }
+}

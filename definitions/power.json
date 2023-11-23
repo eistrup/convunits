@@ -1,0 +1,68 @@
+{
+  "name": "Power",
+  "units": {
+    "W": {
+      "symbols": ["W"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "mW": {
+      "symbols": ["mW"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "kW": {
+      "symbols": ["kW"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "MW": {
+      "symbols": ["MW"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "GW": {
+      "symbols": ["GW"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    },
+    "HP": {
+      "symbols": ["HP"],
+      "system": "metric",
+      "transformations": [["factor", 745.699872]]
+    },
+    "BOE/d": {
+      "symbols": ["BOE/d", "BOEPD", "Barrel Oil Equivalent Per Day"],
+      "system": "imperial",
+      "transformations": [["factor", 70810.1851852]]
+    },
+    "MBOE/d": {
+      "symbols": [
+        "MBOE/d",
+        "M BOE/d",
+        "MBOEPD",
+        "M BOEPD",
+        "Thousand Barrel Oil Equivalent Per Day"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 70810185.1852]]
+    },
+    "MMBOE/d": {
+      "symbols": [
+        "MMBOE/d",
+        "MM BOE/d",
+        "MMBOEPD",
+        "MM BOEPD",
+        "Million Barrel Oil Equivalent Per Day"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 70810185185.2]]
+    },
+    "BTU/DAY": {
+      "symbols": ["BTU/DAY"],
+      "system": "imperial",
+      "transformations": [["factor", 0.01221129459]]
+    }
+  }
+}

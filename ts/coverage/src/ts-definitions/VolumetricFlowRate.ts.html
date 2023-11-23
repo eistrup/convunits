@@ -1,0 +1,301 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for src/ts-definitions/VolumetricFlowRate.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/ts-definitions</a> VolumetricFlowRate.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>6/6</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>6/6</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input oninput="onInput()" type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">43x</span>
+<span class="cline-any cline-yes">43x</span>
+<span class="cline-any cline-yes">43x</span>
+<span class="cline-any cline-yes">43x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">43x</span>
+<span class="cline-any cline-yes">43x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Unit, Quantity, UnitSystem, FactorOperation } from '../models';
+import { Num } from '../expression';
+&nbsp;
+const units: Record&lt;string, Unit&gt; = {
+    'mm3/s': { symbols: new Set(['mm3/s']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(1e-9))] },
+    'cm3/s': { symbols: new Set(['cm3/s']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.000001))] },
+    'ml/s': { symbols: new Set(['ml/s']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.000001))] },
+    'cl/s': { symbols: new Set(['cl/s']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.00001))] },
+    'dl/s': { symbols: new Set(['dl/s']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.0001))] },
+    'l/s': { symbols: new Set(['l/s']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.001))] },
+    'l/min': { symbols: new Set(['l/min', 'lpm', 'LPM']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.000016666666666666667))] },
+    'l/h': { symbols: new Set(['l/h']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(2.7777777777777776e-7))] },
+    'kl/s': { symbols: new Set(['kl/s']), system: UnitSystem._metric, transformations: [] },
+    'kl/min': { symbols: new Set(['kl/min']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.016666666666666666))] },
+    'kl/h': { symbols: new Set(['kl/h']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.0002777777777777778))] },
+    'm3/s': { symbols: new Set(['m3/s']), default: true, system: UnitSystem._metric, transformations: [] },
+    'm3/min': { symbols: new Set(['m3/min']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.016666666666666666))] },
+    'm3/h': { symbols: new Set(['m3/h']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(0.0002777777777777778))] },
+    'km3/s': { symbols: new Set(['km3/s']), system: UnitSystem._metric, transformations: [new FactorOperation(new Num(1000000000))] },
+    'tsp/s': { symbols: new Set(['tsp/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.0000049289215940186454))] },
+    'Tbs/s': { symbols: new Set(['Tbs/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.000014786764782055937))] },
+    'in3/s': { symbols: new Set(['in3/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.00001638698846677003))] },
+    'in3/min': { symbols: new Set(['in3/min']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(2.7311647444616716e-7))] },
+    'in3/h': { symbols: new Set(['in3/h']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(4.551941240769452e-9))] },
+    'fl-oz/s': { symbols: new Set(['fl-oz/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.000029573529564111874))] },
+    'fl-oz/min': { symbols: new Set(['fl-oz/min']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(4.928921594018645e-7))] },
+    'fl-oz/h': { symbols: new Set(['fl-oz/h']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(8.214869323364409e-9))] },
+    'cup/s': { symbols: new Set(['cup/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.000236588236512895))] },
+    'pnt/s': { symbols: new Set(['pnt/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.00047317647302579))] },
+    'pnt/min': { symbols: new Set(['pnt/min']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.000007886274550429832))] },
+    'pnt/h': { symbols: new Set(['pnt/h']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(1.3143790917383054e-7))] },
+    'qt/s': { symbols: new Set(['qt/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.00094635294605158))] },
+    'gal/s': { symbols: new Set(['gal/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.00378541178420632))] },
+    'gal/min': { symbols: new Set(['gal/min']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.00006309019640343866))] },
+    'galUS/min': { symbols: new Set(['galUS/min']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.00005253357806982644))] },
+    'gal/h': { symbols: new Set(['gal/h']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.0000010515032733906443))] },
+    'ft3/s': { symbols: new Set(['ft3/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.028316831998814504))] },
+    'ft3/min': { symbols: new Set(['ft3/min']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.0004719471999802417))] },
+    'ft3/h': { symbols: new Set(['ft3/h']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.000007865786666337362))] },
+    'yd3/s': { symbols: new Set(['yd3/s']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.764555587762115))] },
+    'yd3/min': { symbols: new Set(['yd3/min']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.012742593129368584))] },
+    'yd3/h': { symbols: new Set(['yd3/h']), system: UnitSystem._imperial, transformations: [new FactorOperation(new Num(0.00021237655215614306))] },
+    STBPD: {
+        symbols: new Set(['STBPD', 'STB/DAY', 'B/D', 'BPD', 'bpd', 'stbpd', 'BarrelsPerDay', 'StdBarrelPerDay', 'StockTankBarrelPerDay', 'RB/DAY']),
+        system: UnitSystem._imperial,
+        transformations: [new FactorOperation(new Num(0.000001842233734980409))],
+    },
+    MSTBPD: {
+        symbols: new Set(['MSTBPD', 'MSTB/d', 'MSTB/DAY', 'Mstbpd', 'ThousandBarrelsPerDay', 'ThousandStdBarrelPerDay', 'ThousandStockTankBarrelPerDay']),
+        system: UnitSystem._imperial,
+        transformations: [new FactorOperation(new Num(0.001842233734980409))],
+    },
+    SCFD: {
+        symbols: new Set(['SCFD', 'SCF/d', 'cfd', 'scf/day', 'scfd', 'ft3/day', 'StdCubicFeetPerDay', 'CubicFeetPerDay']),
+        system: UnitSystem._imperial,
+        transformations: [new FactorOperation(new Num(3.27741280556e-7))],
+    },
+    MSCFD: {
+        symbols: new Set(['MSCFD', 'MSCF/d', 'MSCF/DAY', 'Mcfd', 'Mscfd', 'ThousandStdCubicFeetPerDay', 'ThousandCubicFeetPerDay']),
+        system: UnitSystem._imperial,
+        transformations: [new FactorOperation(new Num(0.000327741280556))],
+    },
+    MMSCFD: {
+        symbols: new Set(['MMSCFD', 'MMSCFPD', 'MMSCF/d', 'MMcfd', 'MMscfd', 'Mmscfd', 'Millionft3/day', 'mmscf/day', 'MillionStdCubicFeetPerDay', 'MillionCubicFeetPerDay']),
+        system: UnitSystem._imperial,
+        transformations: [new FactorOperation(new Num(0.327741280556))],
+    },
+};
+&nbsp;
+const quantity: Quantity = new Quantity('Volumetric Flow Rate', units, []);
+&nbsp;
+export default quantity;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2023-11-21T12:37:19.854Z
+            </div>
+        <script src="../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
+    </body>
+</html>
+    

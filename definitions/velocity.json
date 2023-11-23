@@ -1,0 +1,41 @@
+{
+  "name": "Velocity",
+  "units": {
+    "m/s": {
+      "symbols": ["m/s", "meter/second", "meter/sec", "m/sec"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "km/h": {
+      "symbols": ["km/h", "km/hour", "kph"],
+      "system": "metric",
+      "transformations": [["factor", 0.277778]]
+    },
+    "m/h": {
+      "symbols": ["m/h", "MPH", "mph", "miles/hour"],
+      "system": "imperial",
+      "transformations": [["factor", 0.4470410016946879]]
+    },
+    "knot": {
+      "symbols": ["knot"],
+      "system": "imperial",
+      "transformations": [["factor", 0.514444471537777]]
+    },
+    "ft/s": {
+      "symbols": ["ft/s", "feet/second", "feet/sec", "ft/sec"],
+      "system": "imperial",
+      "transformations": [["factor", 0.3047999902464003]]
+    },
+    "ft/min": {
+      "symbols": ["ft/min"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00508000999743968]]
+    },
+    "ft/h": {
+      "symbols": ["ft/h"],
+      "system": "imperial",
+      "transformations": [["factor", 0.00008466666158666683]]
+    }
+  }
+}

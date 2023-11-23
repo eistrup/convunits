@@ -1,0 +1,16 @@
+{
+  "name": "Illuminance",
+  "units": {
+    "lx": {
+      "symbols": ["lx"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "ft-cd": {
+      "symbols": ["ft-cd"],
+      "system": "imperial",
+      "transformations": [["factor", 10.76391]]
+    }
+  }
+}

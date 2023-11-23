@@ -1,0 +1,86 @@
+{
+  "name": "Pressure Gradient",
+  "units": {
+    "Pa/m": {
+      "symbols": ["Pa/m"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "kPa/m": {
+      "symbols": ["kPa/m"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "MPa/m": {
+      "symbols": ["MPa/m"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "GPa/m": {
+      "symbols": ["GPa/m"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    },
+    "Pa/ft": {
+      "symbols": ["Pa/ft"],
+      "system": "metric",
+      "transformations": [["factor", 3.28084]]
+    },
+    "kPa/ft": {
+      "symbols": ["kPa/ft"],
+      "system": "metric",
+      "transformations": [["factor", 3280.84]]
+    },
+    "MPa/ft": {
+      "symbols": ["MPa/ft"],
+      "system": "metric",
+      "transformations": [["factor", 3280840]]
+    },
+    "GPa/ft": {
+      "symbols": ["GPa/ft"],
+      "system": "metric",
+      "transformations": [["factor", 3280840000]]
+    },
+    "bar/m": {
+      "symbols": ["bar/m"],
+      "system": "metric",
+      "transformations": [["factor", 100000]]
+    },
+    "bar/ft": {
+      "symbols": ["bar/ft"],
+      "system": "metric",
+      "transformations": [["factor", 328084]]
+    },
+    "psi/ft": {
+      "symbols": ["psi/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 22620.5948]]
+    },
+    "kpsi/ft": {
+      "symbols": ["kpsi/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 22620594.8]]
+    },
+    "Mpsi/ft": {
+      "symbols": ["Mpsi/ft"],
+      "system": "imperial",
+      "transformations": [["factor", 22620594800]]
+    },
+    "psi/m": {
+      "symbols": ["psi/m"],
+      "system": "imperial",
+      "transformations": [["factor", 6894.757074407773]]
+    },
+    "kpsi/m": {
+      "symbols": ["kpsi/m"],
+      "system": "imperial",
+      "transformations": [["factor", 6894757.074407774]]
+    },
+    "Mpsi/m": {
+      "symbols": ["Mpsi/m"],
+      "system": "imperial",
+      "transformations": [["factor", 6894757074.407773]]
+    }
+  }
+}

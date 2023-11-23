@@ -1,0 +1,36 @@
+{
+  "name": "Frequency",
+  "units": {
+    "mHz": {
+      "symbols": ["mHz"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "Hz": {
+      "symbols": ["Hz", "hz", "Herz", "herz", "1/s", "s-1", "s^-1"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "kHz": {
+      "symbols": ["kHz"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "MHz": {
+      "symbols": ["MHz"],
+      "system": "metric",
+      "transformations": [["factor", 1000000]]
+    },
+    "GHz": {
+      "symbols": ["GHz"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000]]
+    },
+    "THz": {
+      "symbols": ["THz"],
+      "system": "metric",
+      "transformations": [["factor", 1000000000000]]
+    }
+  }
+}

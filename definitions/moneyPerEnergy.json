@@ -1,0 +1,27 @@
+{
+  "name": "Money Per Energy",
+  "subquantities": [
+    "Production Cost",
+    "Lifting Cost",
+    "Unit Technical Cost",
+    "Production Revenue"
+  ],
+  "units": {
+    "USD/J": {
+      "symbols": ["USD/J", "$/J"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "USD/kWh": {
+      "symbols": ["USD/kWh", "$/kWh"],
+      "system": "metric",
+      "transformations": [["factor", 2.77777778e-7]]
+    },
+    "USD/BOE": {
+      "symbols": ["USD/BOE", "$/BOE"],
+      "system": "imperial",
+      "transformations": [["factor", 1.6345576e-10]]
+    }
+  }
+}

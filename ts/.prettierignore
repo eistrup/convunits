@@ -1,0 +1,15 @@
+Ignore artifacts:
+/node_modules
+/.pnp
+.pnp.js
+.idea
+
+# testing
+/coverage
+
+# production
+/build
+/git
+.DS_Store
+package-lock.json
+/.history

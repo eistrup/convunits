@@ -1,0 +1,94 @@
+{
+  "name": "Length",
+  "units": {
+    "nm": {
+      "symbols": ["nm", "nanometer", "Nanometer"],
+      "system": "metric",
+      "transformations": [["factor", 1e-9]]
+    },
+    "um": {
+      "symbols": ["um", "micrometer", "Micrometer"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "mm": {
+      "symbols": ["mm", "milimeter", "Milimeter"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "cm": {
+      "symbols": ["cm", "centimeter", "Centimeter"],
+      "system": "metric",
+      "transformations": [["factor", 0.01]]
+    },
+    "m": {
+      "symbols": ["m", "meter", "Meter", "meters", "Meters", "METERS", "METER"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "km": {
+      "symbols": ["km", "kilometer", "Kilometer", "Kilometers", "KM", "Km"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "in": {
+      "symbols": ["in", "inch", "Inch", "IN", "inches", "Inches"],
+      "system": "imperial",
+      "transformations": [["factor", 0.025399999187200026]]
+    },
+    "0.1in": {
+      "symbols": ["0.1in", "0.1inch", "0.1Inch", "0.1 in", "_01in", "01in"],
+      "system": "imperial",
+      "transformations": [["factor", 0.0025399999187200027]]
+    },
+    "64thsin": {
+      "symbols": [
+        "64thsin",
+        "64ths in",
+        "64ths_in",
+        "64thsInch",
+        "64thsIn",
+        "1/64 in",
+        "1/64_in",
+        "1/64in",
+        "64ths inch",
+        "64ths inches",
+        "1/64ths inch",
+        "1/64ths inches"
+      ],
+      "system": "imperial",
+      "transformations": [["factor", 0.0003968749873]]
+    },
+    "yd": {
+      "symbols": ["yd", "yard", "Yard"],
+      "system": "imperial",
+      "transformations": [["factor", 0.914399970739201]]
+    },
+    "ft-us": {
+      "symbols": ["ft-us", "feetUS", "feet-US", "foot-us", "USfeet"],
+      "system": "imperial",
+      "transformations": [["factor", 0.3048005998463808]]
+    },
+    "ft": {
+      "symbols": ["ft", "FT", "Ft", "feet", "Feet", "foot", "FEET"],
+      "system": "imperial",
+      "transformations": [["factor", 0.3047999902464003]]
+    },
+    "fathom": {
+      "symbols": ["fathom"],
+      "system": "imperial",
+      "transformations": [["factor", 1.828799941478402]]
+    },
+    "mi": {
+      "symbols": ["mi", "mile", "miles", "Miles"],
+      "system": "imperial",
+      "transformations": [["factor", 1609.3439485009937]]
+    },
+    "nMi": {
+      "symbols": ["nMi", "nmi", "nmile", "nauticalmiles", "nauticalMiles"],
+      "system": "imperial",
+      "transformations": [["factor", 1852.0013167359577]]
+    }
+  }
+}

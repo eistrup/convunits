@@ -1,0 +1,11 @@
+{
+  "name": "Pixels",
+  "units": {
+    "pixel": {
+      "symbols": ["pixel", "Pixel", "px", "Px", "Pixels", "pixels"],
+      "system": "metric",
+      "default": true,
+      "transformations": [["factor", 1]]
+    }
+  }
+}

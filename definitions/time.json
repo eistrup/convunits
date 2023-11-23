@@ -1,0 +1,67 @@
+{
+  "name": "Time",
+  "units": {
+    "ns": {
+      "symbols": ["ns", "nsec"],
+      "system": "metric",
+      "transformations": [["factor", 1e-9]]
+    },
+    "us": {
+      "symbols": ["us", "usec"],
+      "system": "metric",
+      "transformations": [["factor", 0.000001]]
+    },
+    "ms": {
+      "symbols": ["ms", "msec"],
+      "system": "metric",
+      "transformations": [["factor", 0.001]]
+    },
+    "s": {
+      "symbols": ["s", "sec", "second"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "min": {
+      "symbols": ["min", "minute"],
+      "system": "metric",
+      "transformations": [["factor", 60]]
+    },
+    "h": {
+      "symbols": ["h", "hour", "H"],
+      "system": "metric",
+      "transformations": [["factor", 3600]]
+    },
+    "day": {
+      "symbols": ["day", "Day", "d", "Days", "days", "DAYS"],
+      "system": "metric",
+      "transformations": [["factor", 86400]]
+    },
+    "week": {
+      "symbols": ["week", "Week", "w"],
+      "system": "metric",
+      "transformations": [["factor", 604800]]
+    },
+    "month": {
+      "symbols": ["month", "Month", "M"],
+      "system": "metric",
+      "transformations": [["factor", 2628000]]
+    },
+    "year": {
+      "symbols": [
+        "year",
+        "years",
+        "Year",
+        "Years",
+        "yr",
+        "yrs",
+        "Yr",
+        "Yrs",
+        "Y",
+        "y"
+      ],
+      "system": "metric",
+      "transformations": [["factor", 31536000]]
+    }
+  }
+}

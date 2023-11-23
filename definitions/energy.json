@@ -1,0 +1,71 @@
+{
+  "name": "Energy",
+  "units": {
+    "Wh": {
+      "symbols": ["Wh"],
+      "system": "metric",
+      "transformations": [["factor", 3600]]
+    },
+    "mWh": {
+      "symbols": ["mWh"],
+      "system": "metric",
+      "transformations": [["factor", 3.6]]
+    },
+    "kWh": {
+      "symbols": ["kWh"],
+      "system": "metric",
+      "transformations": [["factor", 3600000]]
+    },
+    "MWh": {
+      "symbols": ["MWh"],
+      "system": "metric",
+      "transformations": [["factor", 3600000000]]
+    },
+    "GWh": {
+      "symbols": ["GWh"],
+      "system": "metric",
+      "transformations": [["factor", 3600000000000]]
+    },
+    "J": {
+      "symbols": ["J"],
+      "default": true,
+      "system": "metric",
+      "transformations": []
+    },
+    "kJ": {
+      "symbols": ["kJ"],
+      "system": "metric",
+      "transformations": [["factor", 1000]]
+    },
+    "ft.lbf": {
+      "symbols": ["ft.lbf"],
+      "system": "imperial",
+      "transformations": [["factor", 1.3558179]]
+    },
+    "kft.lbf": {
+      "symbols": ["kft.lbf"],
+      "system": "imperial",
+      "transformations": [["factor", 1355.8179]]
+    },
+    "BTU": {
+      "symbols": ["BTU", "British Thermal Unit"],
+      "system": "imperial",
+      "transformations": [["factor", 1055.0558526]]
+    },
+    "BOE": {
+      "symbols": ["BOE", "Barrel Oil Equivalent"],
+      "system": "imperial",
+      "transformations": [["factor", 6.1178632e9]]
+    },
+    "MBOE": {
+      "symbols": ["MBOE", "M BOE", "Thousand Barrel Oil Equivalent"],
+      "system": "imperial",
+      "transformations": [["factor", 6.1178632e12]]
+    },
+    "MMBOE": {
+      "symbols": ["MMBOE", "MM BOE", "Million Barrel Oil Equivalent"],
+      "system": "imperial",
+      "transformations": [["factor", 6.1178632e15]]
+    }
+  }
+}
